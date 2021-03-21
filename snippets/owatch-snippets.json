@@ -1000,19 +1000,19 @@
         ],
         "description": "正在使用辅助武器"
     },
-    "正在使用技能1_c33f3": {
-        "prefix": "zhengzaishiyongjineng1",
+    "正在使用技能 1_33b02": {
+        "prefix": "zhengzaishiyongjineng 1",
         "body": [
-            "正在使用技能1"
+            "正在使用技能 1"
         ],
-        "description": "正在使用技能1"
+        "description": "正在使用技能 1"
     },
-    "正在使用技能2_df651": {
-        "prefix": "zhengzaishiyongjineng2",
+    "正在使用技能 2_4f045": {
+        "prefix": "zhengzaishiyongjineng 2",
         "body": [
-            "正在使用技能2"
+            "正在使用技能 2"
         ],
-        "description": "正在使用技能2"
+        "description": "正在使用技能 2"
     },
     "正在使用终极技能_b24e2": {
         "prefix": "zhengzaishiyongzhongjijineng",
@@ -4963,7 +4963,7 @@
         "description": "始终不可见"
     },
     "可见，位置和半径_d74e2": {
-        "prefix": "kejian，weizhihebanjing",
+        "prefix": "kejianweizhihebanjing",
         "body": [
             "可见，位置和半径"
         ],
@@ -5038,5 +5038,439 @@
             "输入绑定字符串"
         ],
         "description": "输入绑定字符串"
+    },
+    "数组_4b0e3": {
+        "prefix": "shuzu",
+        "body": [
+            "数组"
+        ],
+        "description": "数组"
+    },
+    "英雄_95738": {
+        "prefix": "yingxiong",
+        "body": [
+            "英雄"
+        ],
+        "description": "英雄"
+    },
+    "旋转_65645": {
+        "prefix": "xuanzhuan",
+        "body": [
+            "旋转"
+        ],
+        "description": "旋转"
+    },
+    "旋转并转换_efa86": {
+        "prefix": "xuanzhuanbingzhuanhuan",
+        "body": [
+            "旋转并转换"
+        ],
+        "description": "旋转并转换"
+    },
+    "至地图_352a8": {
+        "prefix": "zhiditu",
+        "body": [
+            "至地图"
+        ],
+        "description": "至地图"
+    },
+    "至玩家_70317": {
+        "prefix": "zhiwanjia",
+        "body": [
+            "至玩家"
+        ],
+        "description": "至玩家"
+    },
+    "方向，速率，及最大速度_137af": {
+        "prefix": "fangxiangsulvjizuidasudu",
+        "body": [
+            "方向，速率，及最大速度"
+        ],
+        "description": "方向，速率，及最大速度"
+    },
+    "敌人_05b52": {
+        "prefix": "diren",
+        "body": [
+            "敌人"
+        ],
+        "description": "敌人"
+    },
+    "全部禁用_91a70": {
+        "prefix": "quanbujinyong",
+        "body": [
+            "全部禁用"
+        ],
+        "description": "全部禁用"
+    },
+    "可见性，排序规则和字符串_59555": {
+        "prefix": "kejianxingpaixuguizehezifuchuan",
+        "body": [
+            "可见性，排序规则和字符串"
+        ],
+        "description": "可见性，排序规则和字符串"
+    },
+    "排序规则和字符串_f8999": {
+        "prefix": "paixuguizehezifuchuan",
+        "body": [
+            "排序规则和字符串"
+        ],
+        "description": "排序规则和字符串"
+    },
+    "可见性和排序_8f3ed": {
+        "prefix": "kejianxinghepaixu",
+        "body": [
+            "可见性和排序"
+        ],
+        "description": "可见性和排序"
+    },
+    "可见，字符串和颜色_21e7a": {
+        "prefix": "kejianzifuchuanheyanse",
+        "body": [
+            "可见，字符串和颜色"
+        ],
+        "description": "可见，字符串和颜色"
+    },
+    "字符串和颜色_abf5b": {
+        "prefix": "zifuchuanheyanse",
+        "body": [
+            "字符串和颜色"
+        ],
+        "description": "字符串和颜色"
+    },
+    "可见，排序规则，字符串和颜色_d3d69": {
+        "prefix": "kejianpaixuguizezifuchuanheyanse",
+        "body": [
+            "可见，排序规则，字符串和颜色"
+        ],
+        "description": "可见，排序规则，字符串和颜色"
+    },
+    "排序规则，字符串和颜色_bda28": {
+        "prefix": "paixuguizezifuchuanheyanse",
+        "body": [
+            "排序规则，字符串和颜色"
+        ],
+        "description": "排序规则，字符串和颜色"
+    },
+    "可见，值和颜色_6f28f": {
+        "prefix": "kejianzhiheyanse",
+        "body": [
+            "可见，值和颜色"
+        ],
+        "description": "可见，值和颜色"
+    },
+    "可见，排序规则和颜色_89ae6": {
+        "prefix": "kejianpaixuguizeheyanse",
+        "body": [
+            "可见，排序规则和颜色"
+        ],
+        "description": "可见，排序规则和颜色"
+    },
+    "可见和颜色_24d54": {
+        "prefix": "kejianheyanse",
+        "body": [
+            "可见和颜色"
+        ],
+        "description": "可见和颜色"
+    },
+    "排序规则和颜色_106e8": {
+        "prefix": "paixuguizeheyanse",
+        "body": [
+            "排序规则和颜色"
+        ],
+        "description": "排序规则和颜色"
+    },
+    "按钮_34557": {
+        "prefix": "anniu",
+        "body": [
+            "按钮"
+        ],
+        "description": "按钮"
+    },
+    "主要攻击模式_e5ea2": {
+        "prefix": "zhuyaogongjimoshi",
+        "body": [
+            "主要攻击模式"
+        ],
+        "description": "主要攻击模式"
+    },
+    "装填_56b27": {
+        "prefix": "zhuangtian",
+        "body": [
+            "装填"
+        ],
+        "description": "装填"
+    },
+    "蹲下_b3329": {
+        "prefix": "dunxia",
+        "body": [
+            "蹲下"
+        ],
+        "description": "蹲下"
+    },
+    "跳跃_9f8f4": {
+        "prefix": "tiaoyue",
+        "body": [
+            "跳跃"
+        ],
+        "description": "跳跃"
+    },
+    "近身攻击_74e68": {
+        "prefix": "jinshengongji",
+        "body": [
+            "近身攻击"
+        ],
+        "description": "近身攻击"
+    },
+    "技能1_5c9f0": {
+        "prefix": "jineng1",
+        "body": [
+            "技能1"
+        ],
+        "description": "技能1"
+    },
+    "技能2_724ea": {
+        "prefix": "jineng2",
+        "body": [
+            "技能2"
+        ],
+        "description": "技能2"
+    },
+    "辅助攻击模式_f1653": {
+        "prefix": "fuzhugongjimoshi",
+        "body": [
+            "辅助攻击模式"
+        ],
+        "description": "辅助攻击模式"
+    },
+    "终极技能_97b07": {
+        "prefix": "zhongjijineng",
+        "body": [
+            "终极技能"
+        ],
+        "description": "终极技能"
+    },
+    "所有队伍_c6f7c": {
+        "prefix": "suoyouduiwu",
+        "body": [
+            "所有队伍"
+        ],
+        "description": "所有队伍"
+    },
+    "无视条件_5161d": {
+        "prefix": "wushitiaojian",
+        "body": [
+            "无视条件"
+        ],
+        "description": "无视条件"
+    },
+    "当为“假”时中止_cf619": {
+        "prefix": "dangweijiashizhongzhi",
+        "body": [
+            "当为“假”时中止"
+        ],
+        "description": "当为“假”时中止"
+    },
+    "当为“真”时重新开始_c5788": {
+        "prefix": "dangweizhenshizhongxinkaishi",
+        "body": [
+            "当为“真”时重新开始"
+        ],
+        "description": "当为“真”时重新开始"
+    },
+    "可见和值_0bb1d": {
+        "prefix": "kejianhezhi",
+        "body": [
+            "可见和值"
+        ],
+        "description": "可见和值"
+    },
+    "值_9e0ed": {
+        "prefix": "zhi",
+        "body": [
+            "值"
+        ],
+        "description": "值"
+    },
+    "值和颜色_91b4e": {
+        "prefix": "zhiheyanse",
+        "body": [
+            "值和颜色"
+        ],
+        "description": "值和颜色"
+    },
+    "方向和幅度_3e069": {
+        "prefix": "fangxianghefudu",
+        "body": [
+            "方向和幅度"
+        ],
+        "description": "方向和幅度"
+    },
+    "替换现有阈值_9f8aa": {
+        "prefix": "tihuanxianyouyuzhi",
+        "body": [
+            "替换现有阈值"
+        ],
+        "description": "替换现有阈值"
+    },
+    "添加至现有阈值_64bbf": {
+        "prefix": "tianjiazhixianyouyuzhi",
+        "body": [
+            "添加至现有阈值"
+        ],
+        "description": "添加至现有阈值"
+    },
+    "服务器负载_7df94": {
+        "prefix": "fuwuqifuzai",
+        "body": [
+            "服务器负载"
+        ],
+        "description": "服务器负载"
+    },
+    "服务器负载平均值_777d9": {
+        "prefix": "fuwuqifuzaipingjunzhi",
+        "body": [
+            "服务器负载平均值"
+        ],
+        "description": "服务器负载平均值"
+    },
+    "服务器负载峰值_de47d": {
+        "prefix": "fuwuqifuzaifengzhi",
+        "body": [
+            "服务器负载峰值"
+        ],
+        "description": "服务器负载峰值"
+    },
+    "可见，位置和字符串_6dd52": {
+        "prefix": "kejianweizhihezifuchuan",
+        "body": [
+            "可见，位置和字符串"
+        ],
+        "description": "可见，位置和字符串"
+    },
+    "根据表面截取_7fd67": {
+        "prefix": "genjubiaomianjiequ",
+        "body": [
+            "根据表面截取"
+        ],
+        "description": "根据表面截取"
+    },
+    "不要截取_9f388": {
+        "prefix": "buyaojiequ",
+        "body": [
+            "不要截取"
+        ],
+        "description": "不要截取"
+    },
+    "全局_b1044": {
+        "prefix": "quanju",
+        "body": [
+            "全局"
+        ],
+        "description": "全局"
+    },
+    "玩家_b89ae": {
+        "prefix": "wanjia",
+        "body": [
+            "玩家"
+        ],
+        "description": "玩家"
+    },
+    "速率及最终值_b39df": {
+        "prefix": "sulvjizuizhongzhi",
+        "body": [
+            "速率及最终值"
+        ],
+        "description": "速率及最终值"
+    },
+    "终点及持续时间_351d4": {
+        "prefix": "zhongdianjichixushijian",
+        "body": [
+            "终点及持续时间"
+        ],
+        "description": "终点及持续时间"
+    },
+    "取消相反运动_95619": {
+        "prefix": "quxiaoxiangfanyundong",
+        "body": [
+            "取消相反运动"
+        ],
+        "description": "取消相反运动"
+    },
+    "取消相反运动XYZ_8e337": {
+        "prefix": "quxiaoxiangfanyundongXYZ",
+        "body": [
+            "取消相反运动XYZ"
+        ],
+        "description": "取消相反运动XYZ"
+    },
+    "合并相反运动_780f2": {
+        "prefix": "hebingxiangfanyundong",
+        "body": [
+            "合并相反运动"
+        ],
+        "description": "合并相反运动"
+    },
+    "禁用_08b11": {
+        "prefix": "jinyong",
+        "body": [
+            "禁用"
+        ],
+        "description": "禁用"
+    },
+    "关闭_1274e": {
+        "prefix": "guanbi",
+        "body": [
+            "关闭"
+        ],
+        "description": "关闭"
+    },
+    "表面_f5272": {
+        "prefix": "biaomian",
+        "body": [
+            "表面"
+        ],
+        "description": "表面"
+    },
+    "表面及敌方屏障_036f8": {
+        "prefix": "biaomianjidifangpingzhang",
+        "body": [
+            "表面及敌方屏障"
+        ],
+        "description": "表面及敌方屏障"
+    },
+    "表面及全部屏障_ed691": {
+        "prefix": "biaomianjiquanbupingzhang",
+        "body": [
+            "表面及全部屏障"
+        ],
+        "description": "表面及全部屏障"
+    },
+    "方向及角速率_e17b6": {
+        "prefix": "fangxiangjijiaosulv",
+        "body": [
+            "方向及角速率"
+        ],
+        "description": "方向及角速率"
+    },
+    "屏障不会阻挡视线_66325": {
+        "prefix": "pingzhangbuhuizudangshixian",
+        "body": [
+            "屏障不会阻挡视线"
+        ],
+        "description": "屏障不会阻挡视线"
+    },
+    "敌方屏障阻挡视线_23590": {
+        "prefix": "difangpingzhangzudangshixian",
+        "body": [
+            "敌方屏障阻挡视线"
+        ],
+        "description": "敌方屏障阻挡视线"
+    },
+    "所有屏障阻挡视线_ac2ec": {
+        "prefix": "suoyoupingzhangzudangshixian",
+        "body": [
+            "所有屏障阻挡视线"
+        ],
+        "description": "所有屏障阻挡视线"
     }
 }
