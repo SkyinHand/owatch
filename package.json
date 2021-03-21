@@ -1,0 +1,56 @@
+{
+    "name": "owatch",
+    "displayName": "OverWatch CN",
+    "description": "守望先锋中国-地图工坊插件",
+    "keywords": [
+        "ow",
+        "overwatch",
+        "owatch",
+        "守望先锋",
+        "owc"
+    ],
+    "version": "1.0.2",
+    "publisher": "Zstk666",
+    "author": "掌上天空#5861",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "owatch",
+                "aliases": [
+                    "owatch",
+                    "owatch"
+                ],
+                "extensions": [
+                    ".watch"
+                ],
+                "configuration": "./configuration/language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "owatch",
+                "scopeName": "source.owatch",
+                "path": "./syntaxes/owatch.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "owcolor",
+                "uiTheme": "vs-dark",
+                "path": "./themes/owatch-color-style.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "owatch",
+                "path": "./snippets/owatch-snippets.json"
+            }
+        ]
+    }
+}
