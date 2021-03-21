@@ -130,7 +130,7 @@
 			"patterns": [
 				{
 					"name": "access.operation.owatch",
-					"match": "\\b(加|减|乘|除|余数|乘方|最小|最大|添加至数组|根据值从数组中移除|根据索引从数组中移除),"					
+					"match": "\\b(加|减|乘|除|余数|乘方|最小|最大|添加至数组|根据值从数组中移除|根据索引从数组中移除)\\b"					
 				},
 				{
 					"name": "access.judge.owatch",
