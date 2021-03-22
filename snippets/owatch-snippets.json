@@ -1163,7 +1163,7 @@
         "description": "在墙上(事件玩家)"
     },
     "在重生室中_08662": {
-        "prefix": "zaizhongshengshizhong",
+        "prefix": "zaichongshengshizhong",
         "body": [
             "在重生室中(事件玩家)"
         ],
@@ -1555,7 +1555,7 @@
         "description": "对象索引"
     },
     "已重生_5fb31": {
-        "prefix": "yizhongsheng",
+        "prefix": "yichongsheng",
         "body": [
             "已重生(事件玩家)"
         ],
@@ -2052,7 +2052,7 @@
         "description": "伤害(事件玩家, 无, 0);"
     },
     "重生_9d168": {
-        "prefix": "zhongsheng",
+        "prefix": "chongsheng",
         "body": [
             "重生(事件玩家);"
         ],
@@ -2381,7 +2381,7 @@
         "description": "停止强制设置玩家轮廓(事件玩家, 所有玩家(所有队伍));"
     },
     "停止强制设置重生室_f943a": {
-        "prefix": "tingzhiqiangzhishezhizhongshengshi",
+        "prefix": "tingzhiqiangzhishezhichongshengshi",
         "body": [
             "停止强制设置重生室"
         ],
@@ -2619,7 +2619,7 @@
         "description": "设置最大生命值(事件玩家, 100);"
     },
     "设置最大重生时间_acc73": {
-        "prefix": "shezhizuidazhongshengshijian",
+        "prefix": "shezhizuidachongshengshijian",
         "body": [
             "设置最大重生时间(事件玩家, 10);"
         ],
@@ -2773,14 +2773,14 @@
         "description": "修改队伍分数(所有队伍, 0);"
     },
     "开始强制重生室_5d72c": {
-        "prefix": "kaishiqiangzhizhongshengshi",
+        "prefix": "kaishiqiangzhichongshengshi",
         "body": [
             "开始强制重生室(所有队伍, 0);"
         ],
         "description": "开始强制重生室(所有队伍, 0);"
     },
     "停止强制重生室_db1a2": {
-        "prefix": "tingzhiqiangzhizhongshengshi",
+        "prefix": "tingzhiqiangzhichongshengshi",
         "body": [
             "停止强制重生室(所有队伍);"
         ],
@@ -2899,7 +2899,7 @@
         "description": "隐藏信息(事件玩家);"
     },
     "重新开始比赛_f4082": {
-        "prefix": "zhongxinkaishibisai",
+        "prefix": "chongxinkaishibisai",
         "body": [
             "重新开始比赛"
         ],
@@ -3032,7 +3032,7 @@
         "description": "开启游戏预设通告模式"
     },
     "开启游戏预设重生模式_cf693": {
-        "prefix": "kaiqiyouxiyushezhongshengmoshi",
+        "prefix": "kaiqiyouxiyushechongshengmoshi",
         "body": [
             "开启游戏预设重生模式(事件玩家);"
         ],
@@ -3067,7 +3067,7 @@
         "description": "关闭游戏预设通告模式"
     },
     "关闭游戏预设重生模式_90795": {
-        "prefix": "guanbiyouxiyushezhongshengmoshi",
+        "prefix": "guanbiyouxiyushechongshengmoshi",
         "body": [
             "关闭游戏预设重生模式(事件玩家);"
         ],
@@ -5167,7 +5167,7 @@
         "description": "当为“假”时中止"
     },
     "当为“真”时重新开始_c5788": {
-        "prefix": "dangweizhenshizhongxinkaishi",
+        "prefix": "dangweizhenshichongxinkaishi",
         "body": [
             "当为“真”时重新开始"
         ],
