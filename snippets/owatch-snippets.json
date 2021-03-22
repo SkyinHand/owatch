@@ -2,112 +2,141 @@
     "规则_0434b": {
         "prefix": "guize",
         "body": [
-            "规则"
+            "规则(\"规则\")",
+            "{",
+            "   事件",
+            "   {",
+            "       持续 - 全局;",
+            "   }",
+            "   条件",
+            "   {",
+            "       $0",
+            "   }",
+            "   动作",
+            "   {",
+            "       $1",
+            "   }",
+            "}"
         ],
         "description": "规则"
     },
+
     "条件_2e5fc": {
         "prefix": "tiaojian",
         "body": [
-            "条件"
+            "条件",
+            "{",
+            "   $0",
+            "}"
         ],
         "description": "条件"
     },
     "变量_28b7b": {
         "prefix": "bianliang",
         "body": [
-            "变量"
+            "变量",
+            "{",
+            "   $0",
+            "}"
         ],
         "description": "变量"
     },
     "事件_61db5": {
         "prefix": "shijian",
         "body": [
-            "事件"
+            "事件",
+            "{",
+            "   $0",
+            "}"
         ],
         "description": "事件"
     },
     "动作_fabde": {
         "prefix": "dongzuo",
         "body": [
-            "动作"
+            "动作",
+            "{",
+            "   $0",
+            "}"
         ],
         "description": "动作"
     },
     "持续 - 全局_660b2": {
-        "prefix": "chixu  quanju",
+        "prefix": "chixuquanju",
         "body": [
-            "持续 - 全局"
+            "持续 - 全局;"
         ],
         "description": "持续 - 全局"
     },
     "持续 - 每名玩家_9139d": {
-        "prefix": "chixu  meimingwanjia",
+        "prefix": "chixumeimingwanjia",
         "body": [
-            "持续 - 每名玩家"
+            "持续 - 每名玩家;",
+            "双方;",
+            "全部;"
         ],
         "description": "持续 - 每名玩家"
     },
     "玩家参与消灭_c6979": {
         "prefix": "wanjiacanyuxiaomie",
         "body": [
-            "玩家参与消灭"
+            "玩家参与消灭;"
         ],
         "description": "玩家参与消灭"
     },
     "玩家造成最后一击_476e9": {
         "prefix": "wanjiazaochengzuihouyiji",
         "body": [
-            "玩家造成最后一击"
+            "玩家造成最后一击;"
         ],
         "description": "玩家造成最后一击"
     },
     "玩家造成伤害_356c8": {
         "prefix": "wanjiazaochengshanghai",
         "body": [
-            "玩家造成伤害"
+            "玩家造成伤害;"
         ],
         "description": "玩家造成伤害"
     },
     "玩家受到伤害_1eb00": {
         "prefix": "wanjiashoudaoshanghai",
         "body": [
-            "玩家受到伤害"
+            "玩家受到伤害;"
         ],
         "description": "玩家受到伤害"
     },
     "玩家阵亡_809b1": {
         "prefix": "wanjiazhenwang",
         "body": [
-            "玩家阵亡"
+            "玩家阵亡;"
         ],
         "description": "玩家阵亡"
     },
     "玩家造成治疗_297ef": {
         "prefix": "wanjiazaochengzhiliao",
         "body": [
-            "玩家造成治疗"
+            "玩家造成治疗;"
         ],
         "description": "玩家造成治疗"
     },
     "玩家受到治疗_608bf": {
         "prefix": "wanjiashoudaozhiliao",
         "body": [
-            "玩家受到治疗"
+            "玩家受到治疗;"
         ],
         "description": "玩家受到治疗"
     },
     "玩家加入比赛_75e47": {
         "prefix": "wanjiajiarubisai",
         "body": [
-            "玩家加入比赛"
+            "玩家加入比赛;"
         ],
         "description": "玩家加入比赛"
     },
     "玩家离开比赛_7a358": {
         "prefix": "wanjialikaibisai",
         "body": [
-            "玩家离开比赛"
+            "玩家离开比赛;"
         ],
         "description": "玩家离开比赛"
     },
@@ -119,14 +148,14 @@
         "description": "双方"
     },
     "队伍1_2395d": {
-        "prefix": "duiwu1",
+        "prefix": "duiwu",
         "body": [
             "队伍1"
         ],
         "description": "队伍1"
     },
     "队伍2_bf05e": {
-        "prefix": "duiwu2",
+        "prefix": "duiwu",
         "body": [
             "队伍2"
         ],
@@ -140,123 +169,123 @@
         "description": "全部"
     },
     "栏位0_a0331": {
-        "prefix": "lanwei0",
+        "prefix": "lanwei",
         "body": [
             "栏位0"
         ],
         "description": "栏位0"
     },
     "栏位1_81165": {
-        "prefix": "lanwei1",
+        "prefix": "lanwei",
         "body": [
             "栏位1"
         ],
         "description": "栏位1"
     },
     "栏位2_9948b": {
-        "prefix": "lanwei2",
+        "prefix": "lanwei",
         "body": [
             "栏位2"
         ],
         "description": "栏位2"
     },
     "栏位3_b930b": {
-        "prefix": "lanwei3",
+        "prefix": "lanwei",
         "body": [
             "栏位3"
         ],
         "description": "栏位3"
     },
     "栏位4_cf713": {
-        "prefix": "lanwei4",
+        "prefix": "lanwei",
         "body": [
             "栏位4"
         ],
         "description": "栏位4"
     },
     "栏位5_e324c": {
-        "prefix": "lanwei5",
+        "prefix": "lanwei",
         "body": [
             "栏位5"
         ],
         "description": "栏位5"
     },
     "栏位6_cf40e": {
-        "prefix": "lanwei6",
+        "prefix": "lanwei",
         "body": [
             "栏位6"
         ],
         "description": "栏位6"
     },
     "栏位7_0ae13": {
-        "prefix": "lanwei7",
+        "prefix": "lanwei",
         "body": [
             "栏位7"
         ],
         "description": "栏位7"
     },
     "栏位8_76546": {
-        "prefix": "lanwei8",
+        "prefix": "lanwei",
         "body": [
             "栏位8"
         ],
         "description": "栏位8"
     },
     "栏位9_94039": {
-        "prefix": "lanwei9",
+        "prefix": "lanwei",
         "body": [
             "栏位9"
         ],
         "description": "栏位9"
     },
     "栏位10_775d3": {
-        "prefix": "lanwei10",
+        "prefix": "lanwei",
         "body": [
             "栏位10"
         ],
         "description": "栏位10"
     },
     "栏位11_b9f98": {
-        "prefix": "lanwei11",
+        "prefix": "lanwei",
         "body": [
             "栏位11"
         ],
         "description": "栏位11"
     },
-    "幅值_d57d4": {
+    "幅值_5b5d7": {
         "prefix": "fuzhi",
         "body": [
-            "幅值"
+            "幅值(矢量(0, 0, 0))"
         ],
-        "description": "幅值"
+        "description": "幅值(矢量(0, 0, 0))"
     },
-    "矢量_962dd": {
+    "矢量_a3da1": {
         "prefix": "shiliang",
         "body": [
-            "矢量"
+            "矢量(0, 0, 0)"
         ],
-        "description": "矢量"
+        "description": "矢量(0, 0, 0)"
     },
-    "X方向分量_18680": {
+    "X方向分量_1428f": {
         "prefix": "Xfangxiangfenliang",
         "body": [
-            "X方向分量"
+            "X方向分量(矢量(0, 0, 0))"
         ],
-        "description": "X方向分量"
+        "description": "X方向分量(矢量(0, 0, 0))"
     },
-    "Y方向分量_be9b3": {
+    "Y方向分量_d654a": {
         "prefix": "Yfangxiangfenliang",
         "body": [
-            "Y方向分量"
+            "Y方向分量(矢量(0, 0, 0))"
         ],
-        "description": "Y方向分量"
+        "description": "Y方向分量(矢量(0, 0, 0))"
     },
-    "Z方向分量_6976a": {
+    "Z方向分量_7e9f9": {
         "prefix": "Zfangxiangfenliang",
         "body": [
-            "Z方向分量"
+            "Z方向分量(矢量(0, 0, 0))"
         ],
-        "description": "Z方向分量"
+        "description": "Z方向分量(矢量(0, 0, 0))"
     },
     "上_b7e4a": {
         "prefix": "shang",
@@ -300,117 +329,117 @@
         ],
         "description": "后"
     },
-    "方向_b53b8": {
+    "方向_8c959": {
         "prefix": "fangxiang",
         "body": [
-            "方向"
+            "方向(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "方向"
+        "description": "方向(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
-    "向量_534e9": {
+    "向量_229b0": {
         "prefix": "xiangliang",
         "body": [
-            "向量"
+            "向量(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "向量"
+        "description": "向量(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
-    "地图矢量_625df": {
+    "地图矢量_b5e8b": {
         "prefix": "ditushiliang",
         "body": [
-            "地图矢量"
+            "地图矢量(矢量(0, 0, 0), 事件玩家, 旋转)"
         ],
-        "description": "地图矢量"
+        "description": "地图矢量(矢量(0, 0, 0), 事件玩家, 旋转)"
     },
-    "本地矢量_65ea0": {
+    "本地矢量_f7f3e": {
         "prefix": "bendishiliang",
         "body": [
-            "本地矢量"
+            "本地矢量(矢量(0, 0, 0), 事件玩家, 旋转)"
         ],
-        "description": "本地矢量"
+        "description": "本地矢量(矢量(0, 0, 0), 事件玩家, 旋转)"
     },
-    "垂直方向夹角_d0da7": {
+    "垂直方向夹角_9432a": {
         "prefix": "chuizhifangxiangjiajiao",
         "body": [
-            "垂直方向夹角"
+            "垂直方向夹角(事件玩家, 矢量(0, 0, 0))"
         ],
-        "description": "垂直方向夹角"
+        "description": "垂直方向夹角(事件玩家, 矢量(0, 0, 0))"
     },
-    "垂直朝向角度_a9ed1": {
+    "垂直朝向角度_0ad6f": {
         "prefix": "chuizhizhaoxiangjiaodu",
         "body": [
-            "垂直朝向角度"
+            "垂直朝向角度(事件玩家)"
         ],
-        "description": "垂直朝向角度"
+        "description": "垂直朝向角度(事件玩家)"
     },
-    "水平方向夹角_e1904": {
+    "水平方向夹角_cf304": {
         "prefix": "shuipingfangxiangjiajiao",
         "body": [
-            "水平方向夹角"
+            "水平方向夹角(事件玩家, 矢量(0, 0, 0))"
         ],
-        "description": "水平方向夹角"
+        "description": "水平方向夹角(事件玩家, 矢量(0, 0, 0))"
     },
-    "水平朝向角度_6f052": {
+    "水平朝向角度_d2529": {
         "prefix": "shuipingzhaoxiangjiaodu",
         "body": [
-            "水平朝向角度"
+            "水平朝向角度(事件玩家)"
         ],
-        "description": "水平朝向角度"
+        "description": "水平朝向角度(事件玩家)"
     },
-    "射线命中位置_b2766": {
+    "射线命中位置_76460": {
         "prefix": "shexianmingzhongweizhi",
         "body": [
-            "射线命中位置"
+            "射线命中位置(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
         ],
-        "description": "射线命中位置"
+        "description": "射线命中位置(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
     },
-    "射线命中法线_e4a70": {
+    "射线命中法线_53ae6": {
         "prefix": "shexianmingzhongfaxian",
         "body": [
-            "射线命中法线"
+            "射线命中法线(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
         ],
-        "description": "射线命中法线"
+        "description": "射线命中法线(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
     },
-    "射线命中玩家_e8dcf": {
+    "射线命中玩家_cbb31": {
         "prefix": "shexianmingzhongwanjia",
         "body": [
-            "射线命中玩家"
+            "射线命中玩家(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
         ],
-        "description": "射线命中玩家"
+        "description": "射线命中玩家(矢量(0, 0, 0), 矢量(0, 0, 0), 所有玩家(所有队伍), 事件玩家, 真)"
     },
-    "在视线内_30362": {
+    "在视线内_8e503": {
         "prefix": "zaishixiannei",
         "body": [
-            "在视线内"
+            "在视线内(矢量(0, 0, 0), 矢量(0, 0, 0), 屏障不会阻挡视线)"
         ],
-        "description": "在视线内"
+        "description": "在视线内(矢量(0, 0, 0), 矢量(0, 0, 0), 屏障不会阻挡视线)"
     },
-    "在视野内_a72ba": {
+    "在视野内_be915": {
         "prefix": "zaishiyenei",
         "body": [
-            "在视野内"
+            "在视野内(事件玩家, 矢量(0, 0, 0), 45)"
         ],
-        "description": "在视野内"
+        "description": "在视野内(事件玩家, 矢量(0, 0, 0), 45)"
     },
-    "视角中的玩家_285f1": {
+    "视角中的玩家_ff026": {
         "prefix": "shijiaozhongdewanjia",
         "body": [
-            "视角中的玩家"
+            "视角中的玩家(事件玩家, 所有队伍, 45)"
         ],
-        "description": "视角中的玩家"
+        "description": "视角中的玩家(事件玩家, 所有队伍, 45)"
     },
-    "距离准星最近的玩家_725f9": {
+    "距离准星最近的玩家_6ccbe": {
         "prefix": "julizhunxingzuijindewanjia",
         "body": [
-            "距离准星最近的玩家"
+            "距离准星最近的玩家(事件玩家, 所有队伍)"
         ],
-        "description": "距离准星最近的玩家"
+        "description": "距离准星最近的玩家(事件玩家, 所有队伍)"
     },
-    "范围内玩家_ad63c": {
+    "范围内玩家_ab477": {
         "prefix": "fanweineiwanjia",
         "body": [
-            "范围内玩家"
+            "范围内玩家(矢量(0, 0, 0), 5, 所有队伍, 关闭)"
         ],
-        "description": "范围内玩家"
+        "description": "范围内玩家(矢量(0, 0, 0), 5, 所有队伍, 关闭)"
     },
     "上一个伤害调整ID_d4a7c": {
         "prefix": "shangyigeshanghaidiaozhengID",
@@ -447,271 +476,201 @@
         ],
         "description": "最后创建的实体"
     },
-    "与_98bd0": {
-        "prefix": "yu",
-        "body": [
-            "与"
-        ],
-        "description": "与"
-    },
-    "或_26398": {
-        "prefix": "huo",
-        "body": [
-            "或"
-        ],
-        "description": "或"
-    },
-    "非_82fc9": {
-        "prefix": "fei",
-        "body": [
-            "非"
-        ],
-        "description": "非"
-    },
-    "比较_ece36": {
-        "prefix": "bijiao",
-        "body": [
-            "比较"
-        ],
-        "description": "比较"
-    },
-    "较大_4e0b1": {
+    "较大_4f1f5": {
         "prefix": "jiaoda",
         "body": [
-            "较大"
+            "较大(0, 0)"
         ],
-        "description": "较大"
+        "description": "较大(0, 0)"
     },
-    "较小_44698": {
+    "较小_732f0": {
         "prefix": "jiaoxiao",
         "body": [
-            "较小"
+            "较小(0, 0)"
         ],
-        "description": "较小"
+        "description": "较小(0, 0)"
     },
-    "加_8f926": {
-        "prefix": "jia",
-        "body": [
-            "加"
-        ],
-        "description": "加"
-    },
-    "减_6ef43": {
-        "prefix": "jian",
-        "body": [
-            "减"
-        ],
-        "description": "减"
-    },
-    "乘_8c23d": {
-        "prefix": "cheng",
-        "body": [
-            "乘"
-        ],
-        "description": "乘"
-    },
-    "除_49d5e": {
-        "prefix": "chu",
-        "body": [
-            "除"
-        ],
-        "description": "除"
-    },
-    "乘方_d5d5f": {
-        "prefix": "chengfang",
-        "body": [
-            "乘方"
-        ],
-        "description": "乘方"
-    },
-    "余数_fafd4": {
-        "prefix": "yushu",
-        "body": [
-            "余数"
-        ],
-        "description": "余数"
-    },
-    "绝对值_601aa": {
+    "绝对值_63a56": {
         "prefix": "jueduizhi",
         "body": [
-            "绝对值"
+            "绝对值(0)"
         ],
-        "description": "绝对值"
+        "description": "绝对值(0)"
     },
-    "随机实数_491a9": {
+    "随机实数_d4009": {
         "prefix": "suijishishu",
         "body": [
-            "随机实数"
+            "随机实数(0, 0)"
         ],
-        "description": "随机实数"
+        "description": "随机实数(0, 0)"
     },
-    "随机整数_bc891": {
+    "随机整数_d0ebc": {
         "prefix": "suijizhengshu",
         "body": [
-            "随机整数"
+            "随机整数(0, 0)"
         ],
-        "description": "随机整数"
+        "description": "随机整数(0, 0)"
     },
-    "平方根_d257f": {
+    "平方根_6d924": {
         "prefix": "pingfanggen",
         "body": [
-            "平方根"
+            "平方根(0)"
         ],
-        "description": "平方根"
+        "description": "平方根(0)"
     },
-    "取整_7be1d": {
+    "取整_c3a5e": {
         "prefix": "quzheng",
         "body": [
-            "取整"
+            "取整(0, 上)"
         ],
-        "description": "取整"
+        "description": "取整(0, 上)"
     },
-    "归一化_a7a51": {
+    "归一化_c6c93": {
         "prefix": "guiyihua",
         "body": [
-            "归一化"
+            "归一化(矢量(0, 0, 0))"
         ],
-        "description": "归一化"
+        "description": "归一化(矢量(0, 0, 0))"
     },
-    "与此方向的垂直角度_d396e": {
+    "与此方向的垂直角度_7654d": {
         "prefix": "yucifangxiangdechuizhijiaodu",
         "body": [
-            "与此方向的垂直角度"
+            "与此方向的垂直角度(矢量(0, 0, 0))"
         ],
-        "description": "与此方向的垂直角度"
+        "description": "与此方向的垂直角度(矢量(0, 0, 0))"
     },
-    "与此方向的水平角度_5a8de": {
+    "与此方向的水平角度_bbc97": {
         "prefix": "yucifangxiangdeshuipingjiaodu",
         "body": [
-            "与此方向的水平角度"
+            "与此方向的水平角度(矢量(0, 0, 0))"
         ],
-        "description": "与此方向的水平角度"
+        "description": "与此方向的水平角度(矢量(0, 0, 0))"
     },
-    "与此角度的相对方向_6e57b": {
+    "与此角度的相对方向_48fd5": {
         "prefix": "yucijiaodudexiangduifangxiang",
         "body": [
-            "与此角度的相对方向"
+            "与此角度的相对方向(0, 0)"
         ],
-        "description": "与此角度的相对方向"
+        "description": "与此角度的相对方向(0, 0)"
     },
-    "相距距离_4a165": {
+    "相距距离_f16e4": {
         "prefix": "xiangjujuli",
         "body": [
-            "相距距离"
+            "相距距离(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "相距距离"
+        "description": "相距距离(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
-    "矢量积_abfa1": {
+    "矢量积_a44a7": {
         "prefix": "shiliangji",
         "body": [
-            "矢量积"
+            "矢量积(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "矢量积"
+        "description": "矢量积(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
-    "标量积_5bc37": {
+    "标量积_edf3b": {
         "prefix": "biaoliangji",
         "body": [
-            "标量积"
+            "标量积(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "标量积"
+        "description": "标量积(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
-    "角度差_c67a1": {
+    "角度差_edac9": {
         "prefix": "jiaoducha",
         "body": [
-            "角度差"
+            "角度差(0, 0)"
         ],
-        "description": "角度差"
+        "description": "角度差(0, 0)"
     },
-    "角度的余弦值_aa97e": {
+    "角度的余弦值_5fc43": {
         "prefix": "jiaodudeyuxianzhi",
         "body": [
-            "角度的余弦值"
+            "角度的余弦值(0)"
         ],
-        "description": "角度的余弦值"
+        "description": "角度的余弦值(0)"
     },
-    "角度的正弦值_9b727": {
+    "角度的正弦值_91d03": {
         "prefix": "jiaodudezhengxianzhi",
         "body": [
-            "角度的正弦值"
+            "角度的正弦值(0)"
         ],
-        "description": "角度的正弦值"
+        "description": "角度的正弦值(0)"
     },
-    "弧度的余弦值_9460a": {
+    "弧度的余弦值_c9ff4": {
         "prefix": "hududeyuxianzhi",
         "body": [
-            "弧度的余弦值"
+            "弧度的余弦值(0)"
         ],
-        "description": "弧度的余弦值"
+        "description": "弧度的余弦值(0)"
     },
-    "弧度的正弦值_1f9c4": {
+    "弧度的正弦值_f54c0": {
         "prefix": "hududezhengxianzhi",
         "body": [
-            "弧度的正弦值"
+            "弧度的正弦值(0)"
         ],
-        "description": "弧度的正弦值"
+        "description": "弧度的正弦值(0)"
     },
-    "角度的正切值_f2b24": {
+    "角度的正切值_bc2b8": {
         "prefix": "jiaodudezhengqiezhi",
         "body": [
-            "角度的正切值"
+            "角度的正切值(0)"
         ],
-        "description": "角度的正切值"
+        "description": "角度的正切值(0)"
     },
-    "弧度的正切值_80725": {
+    "弧度的正切值_ffe12": {
         "prefix": "hududezhengqiezhi",
         "body": [
-            "弧度的正切值"
+            "弧度的正切值(0)"
         ],
-        "description": "弧度的正切值"
+        "description": "弧度的正切值(0)"
     },
-    "以角度为单位的反余弦值_36b07": {
+    "以角度为单位的反余弦值_95725": {
         "prefix": "yijiaoduweidanweidefanyuxianzhi",
         "body": [
-            "以角度为单位的反余弦值"
+            "以角度为单位的反余弦值(0)"
         ],
-        "description": "以角度为单位的反余弦值"
+        "description": "以角度为单位的反余弦值(0)"
     },
-    "以弧度为单位的反余弦值_b4e43": {
+    "以弧度为单位的反余弦值_03bc8": {
         "prefix": "yihuduweidanweidefanyuxianzhi",
         "body": [
-            "以弧度为单位的反余弦值"
+            "以弧度为单位的反余弦值(0)"
         ],
-        "description": "以弧度为单位的反余弦值"
+        "description": "以弧度为单位的反余弦值(0)"
     },
-    "以角度为单位的反正弦值_6dc36": {
+    "以角度为单位的反正弦值_f275b": {
         "prefix": "yijiaoduweidanweidefanzhengxianzhi",
         "body": [
-            "以角度为单位的反正弦值"
+            "以角度为单位的反正弦值(0)"
         ],
-        "description": "以角度为单位的反正弦值"
+        "description": "以角度为单位的反正弦值(0)"
     },
-    "以弧度为单位的反正弦值_9fa99": {
+    "以弧度为单位的反正弦值_7e23c": {
         "prefix": "yihuduweidanweidefanzhengxianzhi",
         "body": [
-            "以弧度为单位的反正弦值"
+            "以弧度为单位的反正弦值(0)"
         ],
-        "description": "以弧度为单位的反正弦值"
+        "description": "以弧度为单位的反正弦值(0)"
     },
-    "以角度为单位的反正切值_7c9a3": {
+    "以角度为单位的反正切值_a2c51": {
         "prefix": "yijiaoduweidanweidefanzhengqiezhi",
         "body": [
-            "以角度为单位的反正切值"
+            "以角度为单位的反正切值(0, 0)"
         ],
-        "description": "以角度为单位的反正切值"
+        "description": "以角度为单位的反正切值(0, 0)"
     },
-    "以弧度为单位的反正切值_4e42e": {
+    "以弧度为单位的反正切值_a5156": {
         "prefix": "yihuduweidanweidefanzhengqiezhi",
         "body": [
-            "以弧度为单位的反正切值"
+            "以弧度为单位的反正切值(0, 0)"
         ],
-        "description": "以弧度为单位的反正切值"
+        "description": "以弧度为单位的反正切值(0, 0)"
     },
-    "矢量间夹角_5f5b0": {
+    "矢量间夹角_17e82": {
         "prefix": "shiliangjianjiajiao",
         "body": [
-            "矢量间夹角"
+            "矢量间夹角(矢量(0, 0, 0), 矢量(0, 0, 0))"
         ],
-        "description": "矢量间夹角"
+        "description": "矢量间夹角(矢量(0, 0, 0), 矢量(0, 0, 0))"
     },
     "事件玩家_5c949": {
         "prefix": "shijianwanjia",
@@ -804,33 +763,33 @@
         ],
         "description": "主机玩家"
     },
-    "武器_9a4d9": {
+    "武器_6542c": {
         "prefix": "wuqi",
         "body": [
-            "武器"
+            "武器(事件玩家)"
         ],
-        "description": "武器"
+        "description": "武器(事件玩家)"
     },
-    "正在近战攻击_9c04d": {
+    "正在近战攻击_e0a24": {
         "prefix": "zhengzaijinzhangongji",
         "body": [
-            "正在近战攻击"
+            "正在近战攻击(事件玩家)"
         ],
-        "description": "正在近战攻击"
+        "description": "正在近战攻击(事件玩家)"
     },
-    "正在跳跃_f4ec7": {
+    "正在跳跃_a5d10": {
         "prefix": "zhengzaitiaoyue",
         "body": [
-            "正在跳跃"
+            "正在跳跃(事件玩家)"
         ],
-        "description": "正在跳跃"
+        "description": "正在跳跃(事件玩家)"
     },
-    "正在装填_a8eac": {
+    "正在装填_267a1": {
         "prefix": "zhengzaizhuangtian",
         "body": [
-            "正在装填"
+            "正在装填(事件玩家)"
         ],
-        "description": "正在装填"
+        "description": "正在装填(事件玩家)"
     },
     "本地玩家_921c5": {
         "prefix": "bendiwanjia",
@@ -839,40 +798,40 @@
         ],
         "description": "本地玩家"
     },
-    "技能资源_25020": {
+    "技能资源_2667c": {
         "prefix": "jinengziyuan",
         "body": [
-            "技能资源"
+            "技能资源(事件玩家, 按钮(主要攻击模式))"
         ],
-        "description": "技能资源"
+        "description": "技能资源(事件玩家, 按钮(主要攻击模式))"
     },
-    "技能冷却时间_d67d9": {
+    "技能冷却时间_b7b63": {
         "prefix": "jinenglengqueshijian",
         "body": [
-            "技能冷却时间"
+            "技能冷却时间(事件玩家, 按钮(主要攻击模式))"
         ],
-        "description": "技能冷却时间"
+        "description": "技能冷却时间(事件玩家, 按钮(主要攻击模式))"
     },
-    "技能充能_7ce94": {
+    "技能充能_090ba": {
         "prefix": "jinengchongneng",
         "body": [
-            "技能充能"
+            "技能充能(事件玩家, 按钮(主要攻击模式))"
         ],
-        "description": "技能充能"
+        "description": "技能充能(事件玩家, 按钮(主要攻击模式))"
     },
-    "所在队伍_be0fe": {
+    "所在队伍_a3183": {
         "prefix": "suozaiduiwu",
         "body": [
-            "所在队伍"
+            "所在队伍(事件玩家)"
         ],
-        "description": "所在队伍"
+        "description": "所在队伍(事件玩家)"
     },
-    "弹药_538e1": {
+    "弹药_a1d47": {
         "prefix": "danyao",
         "body": [
-            "弹药"
+            "弹药(事件玩家, 0)"
         ],
-        "description": "弹药"
+        "description": "弹药(事件玩家, 0)"
     },
     "队伍_9ada7": {
         "prefix": "duiwu",
@@ -888,383 +847,383 @@
         ],
         "description": "助攻数量"
     },
-    "存活_dcba7": {
+    "存活_d89de": {
         "prefix": "cunhuo",
         "body": [
-            "存活"
+            "存活(事件玩家)"
         ],
-        "description": "存活"
+        "description": "存活(事件玩家)"
     },
-    "死亡_b44b9": {
+    "死亡_6f873": {
         "prefix": "siwang",
         "body": [
-            "死亡"
+            "死亡(事件玩家)"
         ],
-        "description": "死亡"
+        "description": "死亡(事件玩家)"
     },
-    "是否是机器人_4a0d0": {
+    "是否是机器人_aa508": {
         "prefix": "shifoushijiqiren",
         "body": [
-            "是否是机器人"
+            "是否是机器人(事件玩家)"
         ],
-        "description": "是否是机器人"
+        "description": "是否是机器人(事件玩家)"
     },
-    "死亡数_dec12": {
+    "死亡数_b6112": {
         "prefix": "siwangshu",
         "body": [
-            "死亡数"
+            "死亡数(事件玩家)"
         ],
-        "description": "死亡数"
+        "description": "死亡数(事件玩家)"
     },
-    "消灭数_1f05c": {
+    "消灭数_5595a": {
         "prefix": "xiaomieshu",
         "body": [
-            "消灭数"
+            "消灭数(事件玩家)"
         ],
-        "description": "消灭数"
+        "description": "消灭数(事件玩家)"
     },
-    "最后一击数_13bcf": {
+    "最后一击数_ac7af": {
         "prefix": "zuihouyijishu",
         "body": [
-            "最后一击数"
+            "最后一击数(事件玩家)"
         ],
-        "description": "最后一击数"
+        "description": "最后一击数(事件玩家)"
     },
-    "生命值_a59b1": {
+    "生命值_bc19e": {
         "prefix": "shengmingzhi",
         "body": [
-            "生命值"
+            "生命值(事件玩家)"
         ],
-        "description": "生命值"
+        "description": "生命值(事件玩家)"
     },
-    "标准化生命值_b92b0": {
+    "标准化生命值_843ff": {
         "prefix": "biaozhunhuashengmingzhi",
         "body": [
-            "标准化生命值"
+            "标准化生命值(事件玩家)"
         ],
-        "description": "标准化生命值"
+        "description": "标准化生命值(事件玩家)"
     },
-    "最大生命值_f4882": {
+    "最大生命值_bfffe": {
         "prefix": "zuidashengmingzhi",
         "body": [
-            "最大生命值"
+            "最大生命值(事件玩家)"
         ],
-        "description": "最大生命值"
+        "description": "最大生命值(事件玩家)"
     },
-    "最大弹药量_ec100": {
+    "最大弹药量_41ac9": {
         "prefix": "zuidadanyaoliang",
         "body": [
-            "最大弹药量"
+            "最大弹药量(事件玩家, 0)"
         ],
-        "description": "最大弹药量"
+        "description": "最大弹药量(事件玩家, 0)"
     },
-    "正在人格复制_238e8": {
+    "正在人格复制_05103": {
         "prefix": "zhengzairengefuzhi",
         "body": [
-            "正在人格复制"
+            "正在人格复制(事件玩家)"
         ],
-        "description": "正在人格复制"
+        "description": "正在人格复制(事件玩家)"
     },
-    "正在交流_300f9": {
+    "正在交流_3190f": {
         "prefix": "zhengzaijiaoliu",
         "body": [
-            "正在交流"
+            "正在交流(事件玩家, 语音（上）)"
         ],
-        "description": "正在交流"
+        "description": "正在交流(事件玩家, 语音（上）)"
     },
-    "正在与人交流_be407": {
+    "正在与人交流_31472": {
         "prefix": "zhengzaiyurenjiaoliu",
         "body": [
-            "正在与人交流"
+            "正在与人交流(事件玩家)"
         ],
-        "description": "正在与人交流"
+        "description": "正在与人交流(事件玩家)"
     },
-    "正在使用喷漆交流_de66e": {
+    "正在使用喷漆交流_5a4a0": {
         "prefix": "zhengzaishiyongpenqijiaoliu",
         "body": [
-            "正在使用喷漆交流"
+            "正在使用喷漆交流(事件玩家)"
         ],
-        "description": "正在使用喷漆交流"
+        "description": "正在使用喷漆交流(事件玩家)"
     },
-    "正在使用主要武器_4f86d": {
+    "正在使用主要武器_f14c2": {
         "prefix": "zhengzaishiyongzhuyaowuqi",
         "body": [
-            "正在使用主要武器"
+            "正在使用主要武器(事件玩家)"
         ],
-        "description": "正在使用主要武器"
+        "description": "正在使用主要武器(事件玩家)"
     },
-    "正在使用辅助武器_3e303": {
+    "正在使用辅助武器_09282": {
         "prefix": "zhengzaishiyongfuzhuwuqi",
         "body": [
-            "正在使用辅助武器"
+            "正在使用辅助武器(事件玩家)"
         ],
-        "description": "正在使用辅助武器"
+        "description": "正在使用辅助武器(事件玩家)"
     },
-    "正在使用技能 1_33b02": {
-        "prefix": "zhengzaishiyongjineng 1",
+    "正在使用技能 1_2165f": {
+        "prefix": "zhengzaishiyongjineng",
         "body": [
-            "正在使用技能 1"
+            "正在使用技能 1(事件玩家)"
         ],
-        "description": "正在使用技能 1"
+        "description": "正在使用技能 1(事件玩家)"
     },
-    "正在使用技能 2_4f045": {
-        "prefix": "zhengzaishiyongjineng 2",
+    "正在使用技能 2_a8437": {
+        "prefix": "zhengzaishiyongjineng",
         "body": [
-            "正在使用技能 2"
+            "正在使用技能 2(事件玩家)"
         ],
-        "description": "正在使用技能 2"
+        "description": "正在使用技能 2(事件玩家)"
     },
-    "正在使用终极技能_b24e2": {
+    "正在使用终极技能_3a44a": {
         "prefix": "zhengzaishiyongzhongjijineng",
         "body": [
-            "正在使用终极技能"
+            "正在使用终极技能(事件玩家)"
         ],
-        "description": "正在使用终极技能"
+        "description": "正在使用终极技能(事件玩家)"
     },
-    "正在复制的英雄_ea93c": {
+    "正在复制的英雄_248c1": {
         "prefix": "zhengzaifuzhideyingxiong",
         "body": [
-            "正在复制的英雄"
+            "正在复制的英雄(事件玩家)"
         ],
-        "description": "正在复制的英雄"
+        "description": "正在复制的英雄(事件玩家)"
     },
-    "所用英雄_db98f": {
+    "所用英雄_39f0e": {
         "prefix": "suoyongyingxiong",
         "body": [
-            "所用英雄"
+            "所用英雄(事件玩家)"
         ],
-        "description": "所用英雄"
+        "description": "所用英雄(事件玩家)"
     },
-    "正在使用表情交流_c3071": {
+    "正在使用表情交流_9db01": {
         "prefix": "zhengzaishiyongbiaoqingjiaoliu",
         "body": [
-            "正在使用表情交流"
+            "正在使用表情交流(事件玩家)"
         ],
-        "description": "正在使用表情交流"
+        "description": "正在使用表情交流(事件玩家)"
     },
-    "正在使用语音交流_b2a0f": {
+    "正在使用语音交流_e69a6": {
         "prefix": "zhengzaishiyongyuyinjiaoliu",
         "body": [
-            "正在使用语音交流"
+            "正在使用语音交流(事件玩家)"
         ],
-        "description": "正在使用语音交流"
+        "description": "正在使用语音交流(事件玩家)"
     },
-    "正在移动_90e27": {
+    "正在移动_9adbb": {
         "prefix": "zhengzaiyidong",
         "body": [
-            "正在移动"
+            "正在移动(事件玩家)"
         ],
-        "description": "正在移动"
+        "description": "正在移动(事件玩家)"
     },
-    "正在空中_fb416": {
+    "正在空中_c5397": {
         "prefix": "zhengzaikongzhong",
         "body": [
-            "正在空中"
+            "正在空中(事件玩家)"
         ],
-        "description": "正在空中"
+        "description": "正在空中(事件玩家)"
     },
-    "正在站立_49c0d": {
+    "正在站立_75c93": {
         "prefix": "zhengzaizhanli",
         "body": [
-            "正在站立"
+            "正在站立(事件玩家)"
         ],
-        "description": "正在站立"
+        "description": "正在站立(事件玩家)"
     },
-    "正在蹲下_815ba": {
+    "正在蹲下_a9550": {
         "prefix": "zhengzaidunxia",
         "body": [
-            "正在蹲下"
+            "正在蹲下(事件玩家)"
         ],
-        "description": "正在蹲下"
+        "description": "正在蹲下(事件玩家)"
     },
-    "面朝方向_88955": {
+    "面朝方向_38271": {
         "prefix": "mianzhaofangxiang",
         "body": [
-            "面朝方向"
+            "面朝方向(事件玩家)"
         ],
-        "description": "面朝方向"
+        "description": "面朝方向(事件玩家)"
     },
-    "速度_597a6": {
+    "速度_ea091": {
         "prefix": "sudu",
         "body": [
-            "速度"
+            "速度(事件玩家)"
         ],
-        "description": "速度"
+        "description": "速度(事件玩家)"
     },
-    "垂直速度_87001": {
+    "垂直速度_f6a63": {
         "prefix": "chuizhisudu",
         "body": [
-            "垂直速度"
+            "垂直速度(事件玩家)"
         ],
-        "description": "垂直速度"
+        "description": "垂直速度(事件玩家)"
     },
-    "水平速度_026c7": {
+    "水平速度_ececa": {
         "prefix": "shuipingsudu",
         "body": [
-            "水平速度"
+            "水平速度(事件玩家)"
         ],
-        "description": "水平速度"
+        "description": "水平速度(事件玩家)"
     },
-    "指定方向速度_1ea49": {
+    "指定方向速度_9390a": {
         "prefix": "zhidingfangxiangsudu",
         "body": [
-            "指定方向速度"
+            "指定方向速度(事件玩家, 矢量(0, 0, 0))"
         ],
-        "description": "指定方向速度"
+        "description": "指定方向速度(事件玩家, 矢量(0, 0, 0))"
     },
-    "高度_4eec5": {
+    "高度_0529a": {
         "prefix": "gaodu",
         "body": [
-            "高度"
+            "高度(事件玩家)"
         ],
-        "description": "高度"
+        "description": "高度(事件玩家)"
     },
-    "速率_18899": {
+    "速率_d1a30": {
         "prefix": "sulv",
         "body": [
-            "速率"
+            "速率(事件玩家)"
         ],
-        "description": "速率"
+        "description": "速率(事件玩家)"
     },
-    "阈值_c9a08": {
+    "阈值_8cd65": {
         "prefix": "yuzhi",
         "body": [
-            "阈值"
+            "阈值(事件玩家)"
         ],
-        "description": "阈值"
+        "description": "阈值(事件玩家)"
     },
-    "眼睛位置_f7efc": {
+    "眼睛位置_dc0e4": {
         "prefix": "yanjingweizhi",
         "body": [
-            "眼睛位置"
+            "眼睛位置(事件玩家)"
         ],
-        "description": "眼睛位置"
+        "description": "眼睛位置(事件玩家)"
     },
-    "在目标点上_70b24": {
+    "在目标点上_d4b6e": {
         "prefix": "zaimubiaodianshang",
         "body": [
-            "在目标点上"
+            "在目标点上(事件玩家)"
         ],
-        "description": "在目标点上"
+        "description": "在目标点上(事件玩家)"
     },
-    "栏位_89745": {
+    "栏位_368af": {
         "prefix": "lanwei",
         "body": [
-            "栏位"
+            "栏位(事件玩家)"
         ],
-        "description": "栏位"
+        "description": "栏位(事件玩家)"
     },
-    "栏位数量_71ba8": {
+    "栏位数量_30e24": {
         "prefix": "lanweishuliang",
         "body": [
-            "栏位数量"
+            "栏位数量(所有队伍)"
         ],
-        "description": "栏位数量"
+        "description": "栏位数量(所有队伍)"
     },
-    "所选位置_0faa4": {
+    "所选位置_4d925": {
         "prefix": "suoxuanweizhi",
         "body": [
-            "所选位置"
+            "所选位置(事件玩家)"
         ],
-        "description": "所选位置"
+        "description": "所选位置(事件玩家)"
     },
-    "具有状态_e8a42": {
+    "具有状态_fed19": {
         "prefix": "juyouzhuangtai",
         "body": [
-            "具有状态"
+            "具有状态(事件玩家, 被入侵)"
         ],
-        "description": "具有状态"
+        "description": "具有状态(事件玩家, 被入侵)"
     },
-    "分数_2e637": {
+    "分数_78b89": {
         "prefix": "fenshu",
         "body": [
-            "分数"
+            "分数(事件玩家)"
         ],
-        "description": "分数"
+        "description": "分数(事件玩家)"
     },
-    "可用英雄_908bb": {
+    "可用英雄_4ad71": {
         "prefix": "keyongyingxiong",
         "body": [
-            "可用英雄"
+            "可用英雄(事件玩家)"
         ],
-        "description": "可用英雄"
+        "description": "可用英雄(事件玩家)"
     },
-    "在地面上_4e6d0": {
+    "在地面上_daa3c": {
         "prefix": "zaidimianshang",
         "body": [
-            "在地面上"
+            "在地面上(事件玩家)"
         ],
-        "description": "在地面上"
+        "description": "在地面上(事件玩家)"
     },
-    "在墙上_e5450": {
+    "在墙上_441f8": {
         "prefix": "zaiqiangshang",
         "body": [
-            "在墙上"
+            "在墙上(事件玩家)"
         ],
-        "description": "在墙上"
+        "description": "在墙上(事件玩家)"
     },
-    "在重生室中_7d703": {
+    "在重生室中_08662": {
         "prefix": "zaizhongshengshizhong",
         "body": [
-            "在重生室中"
+            "在重生室中(事件玩家)"
         ],
-        "description": "在重生室中"
+        "description": "在重生室中(事件玩家)"
     },
-    "头像火力全开_6502a": {
+    "头像火力全开_0ccc4": {
         "prefix": "touxianghuoliquankai",
         "body": [
-            "头像火力全开"
+            "头像火力全开(事件玩家)"
         ],
-        "description": "头像火力全开"
+        "description": "头像火力全开(事件玩家)"
     },
-    "按钮被按下_908d2": {
+    "按钮被按下_5fb27": {
         "prefix": "anniubeianxia",
         "body": [
-            "按钮被按下"
+            "按钮被按下(事件玩家, 按钮(主要攻击模式))"
         ],
-        "description": "按钮被按下"
+        "description": "按钮被按下(事件玩家, 按钮(主要攻击模式))"
     },
-    "终极技能充能百分比_aa505": {
+    "终极技能充能百分比_ea5c7": {
         "prefix": "zhongjijinengchongnengbaifenbi",
         "body": [
-            "终极技能充能百分比"
+            "终极技能充能百分比(事件玩家)"
         ],
-        "description": "终极技能充能百分比"
+        "description": "终极技能充能百分比(事件玩家)"
     },
-    "地图工坊设置实数_2dafb": {
+    "地图工坊设置实数_f51f5": {
         "prefix": "ditugongfangshezhishishu",
         "body": [
-            "地图工坊设置实数"
+            "地图工坊设置实数(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 0, 100, 0)"
         ],
-        "description": "地图工坊设置实数"
+        "description": "地图工坊设置实数(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 0, 100, 0)"
     },
-    "地图工坊设置开关_87937": {
+    "地图工坊设置开关_2cbf8": {
         "prefix": "ditugongfangshezhikaiguan",
         "body": [
-            "地图工坊设置开关"
+            "地图工坊设置开关(自定义字符串(\"\"), 自定义字符串(\"\"), 假, 0)"
         ],
-        "description": "地图工坊设置开关"
+        "description": "地图工坊设置开关(自定义字符串(\"\"), 自定义字符串(\"\"), 假, 0)"
     },
-    "地图工坊设置整数_9c016": {
+    "地图工坊设置整数_0f14a": {
         "prefix": "ditugongfangshezhizhengshu",
         "body": [
-            "地图工坊设置整数"
+            "地图工坊设置整数(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 0, 100, 0)"
         ],
-        "description": "地图工坊设置整数"
+        "description": "地图工坊设置整数(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 0, 100, 0)"
     },
-    "地图工坊设置组合_8fe16": {
+    "地图工坊设置组合_aa231": {
         "prefix": "ditugongfangshezhizuhe",
         "body": [
-            "地图工坊设置组合"
+            "地图工坊设置组合(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 数组(), 0)"
         ],
-        "description": "地图工坊设置组合"
+        "description": "地图工坊设置组合(自定义字符串(\"\"), 自定义字符串(\"\"), 0, 数组(), 0)"
     },
-    "地图工坊设置英雄_0a906": {
+    "地图工坊设置英雄_5ed02": {
         "prefix": "ditugongfangshezhiyingxiong",
         "body": [
-            "地图工坊设置英雄"
+            "地图工坊设置英雄(自定义字符串(\"\"), 自定义字符串(\"\"), D.Va, 0)"
         ],
-        "description": "地图工坊设置英雄"
+        "description": "地图工坊设置英雄(自定义字符串(\"\"), 自定义字符串(\"\"), D.Va, 0)"
     },
     "正在等待玩家_51ed5": {
         "prefix": "zhengzaidengdaiwanjia",
@@ -1301,19 +1260,19 @@
         ],
         "description": "当前比赛模式"
     },
-    "比赛模式_b1863": {
+    "比赛模式_bfaac": {
         "prefix": "bisaimoshi",
         "body": [
-            "比赛模式"
+            "比赛模式(决斗先锋)"
         ],
-        "description": "比赛模式"
+        "description": "比赛模式(决斗先锋)"
     },
-    "地图_45c67": {
+    "地图_569eb": {
         "prefix": "ditu",
         "body": [
-            "地图"
+            "地图(66号公路)"
         ],
-        "description": "地图"
+        "description": "地图(66号公路)"
     },
     "当前地图_612b7": {
         "prefix": "dangqianditu",
@@ -1343,26 +1302,26 @@
         ],
         "description": "比赛结束"
     },
-    "此栏位的玩家_09596": {
+    "此栏位的玩家_96861": {
         "prefix": "cilanweidewanjia",
         "body": [
-            "此栏位的玩家"
+            "此栏位的玩家(0, 所有队伍)"
         ],
-        "description": "此栏位的玩家"
+        "description": "此栏位的玩家(0, 所有队伍)"
     },
-    "正在使用英雄_1553c": {
+    "正在使用英雄_baece": {
         "prefix": "zhengzaishiyongyingxiong",
         "body": [
-            "正在使用英雄"
+            "正在使用英雄(英雄(D.Va), 所有队伍)"
         ],
-        "description": "正在使用英雄"
+        "description": "正在使用英雄(英雄(D.Va), 所有队伍)"
     },
-    "选择英雄的玩家_ced5a": {
+    "选择英雄的玩家_5d18d": {
         "prefix": "xuanzeyingxiongdewanjia",
         "body": [
-            "选择英雄的玩家"
+            "选择英雄的玩家(英雄(D.Va), 所有队伍)"
         ],
-        "description": "选择英雄的玩家"
+        "description": "选择英雄的玩家(英雄(D.Va), 所有队伍)"
     },
     "总计消耗时间_b7865": {
         "prefix": "zongjixiaohaoshijian",
@@ -1371,33 +1330,33 @@
         ],
         "description": "总计消耗时间"
     },
-    "玩家数量_7ce76": {
+    "玩家数量_6df0f": {
         "prefix": "wanjiashuliang",
         "body": [
-            "玩家数量"
+            "玩家数量(所有队伍)"
         ],
-        "description": "玩家数量"
+        "description": "玩家数量(所有队伍)"
     },
-    "英雄数量_24d10": {
+    "英雄数量_b5590": {
         "prefix": "yingxiongshuliang",
         "body": [
-            "英雄数量"
+            "英雄数量(英雄(D.Va), 所有队伍)"
         ],
-        "description": "英雄数量"
+        "description": "英雄数量(英雄(D.Va), 所有队伍)"
     },
-    "存活玩家数量_59470": {
+    "存活玩家数量_aa490": {
         "prefix": "cunhuowanjiashuliang",
         "body": [
-            "存活玩家数量"
+            "存活玩家数量(所有队伍)"
         ],
-        "description": "存活玩家数量"
+        "description": "存活玩家数量(所有队伍)"
     },
-    "死亡玩家数量_a41ed": {
+    "死亡玩家数量_3c27c": {
         "prefix": "siwangwanjiashuliang",
         "body": [
-            "死亡玩家数量"
+            "死亡玩家数量(所有队伍)"
         ],
-        "description": "死亡玩家数量"
+        "description": "死亡玩家数量(所有队伍)"
     },
     "所有支援英雄_614cf": {
         "prefix": "suoyouzhiyuanyingxiong",
@@ -1420,68 +1379,68 @@
         ],
         "description": "所有重装英雄"
     },
-    "所有存活玩家_cc486": {
+    "所有存活玩家_d3412": {
         "prefix": "suoyoucunhuowanjia",
         "body": [
-            "所有存活玩家"
+            "所有存活玩家(所有队伍)"
         ],
-        "description": "所有存活玩家"
+        "description": "所有存活玩家(所有队伍)"
     },
-    "所有死亡玩家_6481d": {
+    "所有死亡玩家_e0e79": {
         "prefix": "suoyousiwangwanjia",
         "body": [
-            "所有死亡玩家"
+            "所有死亡玩家(所有队伍)"
         ],
-        "description": "所有死亡玩家"
+        "description": "所有死亡玩家(所有队伍)"
     },
-    "所有玩家_820fe": {
+    "所有玩家_4c5a0": {
         "prefix": "suoyouwanjia",
         "body": [
-            "所有玩家"
+            "所有玩家(所有队伍)"
         ],
-        "description": "所有玩家"
+        "description": "所有玩家(所有队伍)"
     },
-    "所有目标点内玩家_d8ae5": {
+    "所有目标点内玩家_eaf5d": {
         "prefix": "suoyoumubiaodianneiwanjia",
         "body": [
-            "所有目标点内玩家"
+            "所有目标点内玩家(所有队伍)"
         ],
-        "description": "所有目标点内玩家"
+        "description": "所有目标点内玩家(所有队伍)"
     },
-    "所有目标点外玩家_3f996": {
+    "所有目标点外玩家_d3313": {
         "prefix": "suoyoumubiaodianwaiwanjia",
         "body": [
-            "所有目标点外玩家"
+            "所有目标点外玩家(所有队伍)"
         ],
-        "description": "所有目标点外玩家"
+        "description": "所有目标点外玩家(所有队伍)"
     },
-    "携带旗帜的玩家_9bccc": {
+    "携带旗帜的玩家_6c641": {
         "prefix": "xidaiqizhidewanjia",
         "body": [
-            "携带旗帜的玩家"
+            "携带旗帜的玩家(所有队伍)"
         ],
-        "description": "携带旗帜的玩家"
+        "description": "携带旗帜的玩家(所有队伍)"
     },
-    "旗帜位置_6e439": {
+    "旗帜位置_44d20": {
         "prefix": "qizhiweizhi",
         "body": [
-            "旗帜位置"
+            "旗帜位置(所有队伍)"
         ],
-        "description": "旗帜位置"
+        "description": "旗帜位置(所有队伍)"
     },
-    "旗帜是否在基地中_963aa": {
+    "旗帜是否在基地中_f986b": {
         "prefix": "qizhishifouzaijidizhong",
         "body": [
-            "旗帜是否在基地中"
+            "旗帜是否在基地中(所有队伍)"
         ],
-        "description": "旗帜是否在基地中"
+        "description": "旗帜是否在基地中(所有队伍)"
     },
-    "是否有人携带旗帜_eacc3": {
+    "是否有人携带旗帜_158e0": {
         "prefix": "shifouyourenxidaiqizhi",
         "body": [
-            "是否有人携带旗帜"
+            "是否有人携带旗帜(所有队伍)"
         ],
-        "description": "是否有人携带旗帜"
+        "description": "是否有人携带旗帜(所有队伍)"
     },
     "在夺旗模式中开始绝杀局_67b50": {
         "prefix": "zaiduoqimoshizhongkaishijueshaju",
@@ -1490,33 +1449,33 @@
         ],
         "description": "在夺旗模式中开始绝杀局"
     },
-    "最近的可行走位置_210d1": {
+    "最近的可行走位置_e9a9b": {
         "prefix": "zuijindekexingzouweizhi",
         "body": [
-            "最近的可行走位置"
+            "最近的可行走位置(矢量(0, 0, 0))"
         ],
-        "description": "最近的可行走位置"
+        "description": "最近的可行走位置(矢量(0, 0, 0))"
     },
-    "距离最近的玩家_517a3": {
+    "距离最近的玩家_df109": {
         "prefix": "julizuijindewanjia",
         "body": [
-            "距离最近的玩家"
+            "距离最近的玩家(矢量(0, 0, 0), 所有队伍)"
         ],
-        "description": "距离最近的玩家"
+        "description": "距离最近的玩家(矢量(0, 0, 0), 所有队伍)"
     },
-    "距离最远的玩家_65a8a": {
+    "距离最远的玩家_f4e45": {
         "prefix": "julizuiyuandewanjia",
         "body": [
-            "距离最远的玩家"
+            "距离最远的玩家(矢量(0, 0, 0), 所有队伍)"
         ],
-        "description": "距离最远的玩家"
+        "description": "距离最远的玩家(矢量(0, 0, 0), 所有队伍)"
     },
-    "实体存在_f9f37": {
+    "实体存在_1c432": {
         "prefix": "shiticunzai",
         "body": [
-            "实体存在"
+            "实体存在(事件玩家)"
         ],
-        "description": "实体存在"
+        "description": "实体存在(事件玩家)"
     },
     "实体数量_302b3": {
         "prefix": "shitishuliang",
@@ -1532,12 +1491,12 @@
         ],
         "description": "占领要点模式占领点解锁"
     },
-    "占领要点模式得分百分比_e0a1c": {
+    "占领要点模式得分百分比_0aafb": {
         "prefix": "zhanlingyaodianmoshidefenbaifenbi",
         "body": [
-            "占领要点模式得分百分比"
+            "占领要点模式得分百分比(所有队伍)"
         ],
-        "description": "占领要点模式得分百分比"
+        "description": "占领要点模式得分百分比(所有队伍)"
     },
     "占领要点模式正在得分的队伍_a4034": {
         "prefix": "zhanlingyaodianmoshizhengzaidefendeduiwu",
@@ -1560,26 +1519,26 @@
         ],
         "description": "运载目标进度百分比"
     },
-    "目标位置_e6f00": {
+    "目标位置_cbef5": {
         "prefix": "mubiaoweizhi",
         "body": [
-            "目标位置"
+            "目标位置(0)"
         ],
-        "description": "目标位置"
+        "description": "目标位置(0)"
     },
-    "目标是否完成_dae54": {
+    "目标是否完成_b38cd": {
         "prefix": "mubiaoshifouwancheng",
         "body": [
-            "目标是否完成"
+            "目标是否完成(0)"
         ],
-        "description": "目标是否完成"
+        "description": "目标是否完成(0)"
     },
-    "目标点上玩家数量_56059": {
+    "目标点上玩家数量_15fb1": {
         "prefix": "mubiaodianshangwanjiashuliang",
         "body": [
-            "目标点上玩家数量"
+            "目标点上玩家数量(所有队伍)"
         ],
-        "description": "目标点上玩家数量"
+        "description": "目标点上玩家数量(所有队伍)"
     },
     "目标点占领百分比_f5e7b": {
         "prefix": "mubiaodianzhanlingbaifenbi",
@@ -1595,12 +1554,12 @@
         ],
         "description": "对象索引"
     },
-    "已重生_3a7ae": {
+    "已重生_5fb31": {
         "prefix": "yizhongsheng",
         "body": [
-            "已重生"
+            "已重生(事件玩家)"
         ],
-        "description": "已重生"
+        "description": "已重生(事件玩家)"
     },
     "处于回合之间_3c94c": {
         "prefix": "chuyuhuihezhijian",
@@ -1609,68 +1568,68 @@
         ],
         "description": "处于回合之间"
     },
-    "团队得分_c32b8": {
+    "团队得分_97fc4": {
         "prefix": "tuanduidefen",
         "body": [
-            "团队得分"
+            "团队得分(所有队伍)"
         ],
-        "description": "团队得分"
+        "description": "团队得分(所有队伍)"
     },
-    "对方队伍_8f832": {
+    "对方队伍_4ea65": {
         "prefix": "duifangduiwu",
         "body": [
-            "对方队伍"
+            "对方队伍(所有队伍)"
         ],
-        "description": "对方队伍"
+        "description": "对方队伍(所有队伍)"
     },
-    "正在防守_afa7c": {
+    "正在防守_69435": {
         "prefix": "zhengzaifangshou",
         "body": [
-            "正在防守"
+            "正在防守(所有队伍)"
         ],
-        "description": "正在防守"
+        "description": "正在防守(所有队伍)"
     },
-    "作为进攻队伍_a734e": {
+    "作为进攻队伍_3fe4e": {
         "prefix": "zuoweijingongduiwu",
         "body": [
-            "作为进攻队伍"
+            "作为进攻队伍(所有队伍)"
         ],
-        "description": "作为进攻队伍"
+        "description": "作为进攻队伍(所有队伍)"
     },
-    "对任意为”真“_beec4": {
+    "对任意为”真“_baafb": {
         "prefix": "duirenyiweizhen",
         "body": [
-            "对任意为”真“"
+            "对任意为”真“(全局.A, 0 == 0)"
         ],
-        "description": "对任意为”真“"
+        "description": "对任意为”真“(全局.A, 0 == 0)"
     },
-    "对全部为”真“_238d2": {
+    "对全部为”真“_44ca2": {
         "prefix": "duiquanbuweizhen",
         "body": [
-            "对全部为”真“"
+            "对全部为”真“(全局.A, 0 == 0)"
         ],
-        "description": "对全部为”真“"
+        "description": "对全部为”真“(全局.A, 0 == 0)"
     },
-    "映射的数组_843d8": {
+    "映射的数组_9d832": {
         "prefix": "yingshedeshuzu",
         "body": [
-            "映射的数组"
+            "映射的数组(所有玩家(所有队伍), 当前数组元素)"
         ],
-        "description": "映射的数组"
+        "description": "映射的数组(所有玩家(所有队伍), 当前数组元素)"
     },
-    "已排序的数组_4b6d9": {
+    "已排序的数组_637e4": {
         "prefix": "yipaixudeshuzu",
         "body": [
-            "已排序的数组"
+            "已排序的数组(全局.A, 当前数组元素)"
         ],
-        "description": "已排序的数组"
+        "description": "已排序的数组(全局.A, 当前数组元素)"
     },
-    "已过滤的数组_eea98": {
+    "已过滤的数组_d3516": {
         "prefix": "yiguolvdeshuzu",
         "body": [
-            "已过滤的数组"
+            "已过滤的数组(所有玩家(所有队伍), 0 == 0)"
         ],
-        "description": "已过滤的数组"
+        "description": "已过滤的数组(所有玩家(所有队伍), 0 == 0)"
     },
     "当前数组元素_a1304": {
         "prefix": "dangqianshuzuyuansu",
@@ -1693,75 +1652,75 @@
         ],
         "description": "数组中的值"
     },
-    "数组值的索引_da0b9": {
+    "数组值的索引_bf6e5": {
         "prefix": "shuzuzhidesuoyin",
         "body": [
-            "数组值的索引"
+            "数组值的索引(所有玩家(所有队伍), 0)"
         ],
-        "description": "数组值的索引"
+        "description": "数组值的索引(所有玩家(所有队伍), 0)"
     },
-    "数组分割_f1a1b": {
+    "数组分割_87588": {
         "prefix": "shuzufenge",
         "body": [
-            "数组分割"
+            "数组分割(全局.A, 0, 0)"
         ],
-        "description": "数组分割"
+        "description": "数组分割(全局.A, 0, 0)"
     },
-    "数组包含_1eebf": {
+    "数组包含_38dc0": {
         "prefix": "shuzubaohan",
         "body": [
-            "数组包含"
+            "数组包含(所有玩家(所有队伍), 0)"
         ],
-        "description": "数组包含"
+        "description": "数组包含(所有玩家(所有队伍), 0)"
     },
-    "数组随机取值_5a71f": {
+    "数组随机取值_6b316": {
         "prefix": "shuzusuijiquzhi",
         "body": [
-            "数组随机取值"
+            "数组随机取值(全局.A)"
         ],
-        "description": "数组随机取值"
+        "description": "数组随机取值(全局.A)"
     },
-    "数量_b32f9": {
+    "数量_32555": {
         "prefix": "shuliang",
         "body": [
-            "数量"
+            "数量(全局.A)"
         ],
-        "description": "数量"
+        "description": "数量(全局.A)"
     },
-    "随机数组_b2e22": {
+    "随机数组_6951c": {
         "prefix": "suijishuzu",
         "body": [
-            "随机数组"
+            "随机数组(全局.A)"
         ],
-        "description": "随机数组"
+        "description": "随机数组(全局.A)"
     },
-    "首个_e03cd": {
+    "首个_93dc5": {
         "prefix": "shouge",
         "body": [
-            "首个"
+            "首个(全局.A)"
         ],
-        "description": "首个"
+        "description": "首个(全局.A)"
     },
-    "最后_8266b": {
+    "最后_d2024": {
         "prefix": "zuihou",
         "body": [
-            "最后"
+            "最后(全局.A)"
         ],
-        "description": "最后"
+        "description": "最后(全局.A)"
     },
-    "添加至数组_4ace3": {
+    "添加至数组_087a8": {
         "prefix": "tianjiazhishuzu",
         "body": [
-            "添加至数组"
+            "添加至数组(所有玩家(所有队伍), 0)"
         ],
-        "description": "添加至数组"
+        "description": "添加至数组(所有玩家(所有队伍), 0)"
     },
-    "从数组中移除_3b446": {
+    "从数组中移除_5b045": {
         "prefix": "congshuzuzhongyichu",
         "body": [
-            "从数组中移除"
+            "从数组中移除(所有玩家(所有队伍), 0)"
         ],
-        "description": "从数组中移除"
+        "description": "从数组中移除(所有玩家(所有队伍), 0)"
     },
     "空数组_d1378": {
         "prefix": "kongshuzu",
@@ -1826,40 +1785,33 @@
         ],
         "description": "全部输出英雄"
     },
-    "英雄图标字符串_ef1ab": {
+    "英雄图标字符串_0bea9": {
         "prefix": "yingxiongtubiaozifuchuan",
         "body": [
-            "英雄图标字符串"
+            "英雄图标字符串(英雄(D.Va))"
         ],
-        "description": "英雄图标字符串"
+        "description": "英雄图标字符串(英雄(D.Va))"
     },
-    "图标字符串_834fb": {
+    "图标字符串_b2e5b": {
         "prefix": "tubiaozifuchuan",
         "body": [
-            "图标字符串"
+            "图标字符串(箭头：向下)"
         ],
-        "description": "图标字符串"
+        "description": "图标字符串(箭头：向下)"
     },
-    "数字_90c5d": {
-        "prefix": "shuzi",
-        "body": [
-            "数字"
-        ],
-        "description": "数字"
-    },
-    "字符串_1da7e": {
+    "字符串_54173": {
         "prefix": "zifuchuan",
         "body": [
-            "字符串"
+            "字符串(\"问候\")"
         ],
-        "description": "字符串"
+        "description": "字符串(\"问候\")"
     },
-    "自定义字符串_10e1d": {
+    "自定义字符串_4820a": {
         "prefix": "zidingyizifuchuan",
         "body": [
-            "自定义字符串"
+            "自定义字符串(\"\")"
         ],
-        "description": "自定义字符串"
+        "description": "自定义字符串(\"\")"
     },
     "无_206a8": {
         "prefix": "wu",
@@ -1868,12 +1820,12 @@
         ],
         "description": "无"
     },
-    "等待_22788": {
+    "等待_9253f": {
         "prefix": "dengdai",
         "body": [
-            "等待"
+            "等待(0.250, 无视条件);"
         ],
-        "description": "等待"
+        "description": "等待(0.250, 无视条件);"
     },
     "等待直到_ef6c1": {
         "prefix": "dengdaizhidao",
@@ -1896,12 +1848,12 @@
         ],
         "description": "中止"
     },
-    "跳过_e8c8f": {
+    "跳过_8eab3": {
         "prefix": "tiaoguo",
         "body": [
-            "跳过"
+            "跳过(1);"
         ],
-        "description": "跳过"
+        "description": "跳过(1);"
     },
     "继续_68be2": {
         "prefix": "jixu",
@@ -1945,61 +1897,61 @@
         ],
         "description": "如条件为”真“则循环"
     },
-    "根据条件中止_83300": {
+    "根据条件中止_d5b70": {
         "prefix": "genjutiaojianzhongzhi",
         "body": [
-            "根据条件中止"
+            "根据条件中止(0 == 0);"
         ],
-        "description": "根据条件中止"
+        "description": "根据条件中止(0 == 0);"
     },
-    "根据条件循环_8115c": {
+    "根据条件循环_6ad92": {
         "prefix": "genjutiaojianxunhuan",
         "body": [
-            "根据条件循环"
+            "根据条件循环(0 == 0);"
         ],
-        "description": "根据条件循环"
+        "description": "根据条件循环(0 == 0);"
     },
-    "根据条件跳过_5e9c5": {
+    "根据条件跳过_c8f12": {
         "prefix": "genjutiaojiantiaoguo",
         "body": [
-            "根据条件跳过"
+            "根据条件跳过(0 == 0, 1);"
         ],
-        "description": "根据条件跳过"
+        "description": "根据条件跳过(0 == 0, 1);"
     },
-    "绑定玩家_b2fcf": {
+    "绑定玩家_c0372": {
         "prefix": "bangdingwanjia",
         "body": [
-            "绑定玩家"
+            "绑定玩家(事件玩家, 最后创建的实体, 矢量(0, 0, 0));"
         ],
-        "description": "绑定玩家"
+        "description": "绑定玩家(事件玩家, 最后创建的实体, 矢量(0, 0, 0));"
     },
-    "解除绑定_a47bb": {
+    "解除绑定_66d75": {
         "prefix": "jiechubangding",
         "body": [
-            "解除绑定"
+            "解除绑定(事件玩家);"
         ],
-        "description": "解除绑定"
+        "description": "解除绑定(事件玩家);"
     },
-    "开始调整玩家大小_83abc": {
+    "开始调整玩家大小_5f868": {
         "prefix": "kaishidiaozhengwanjiadaxiao",
         "body": [
-            "开始调整玩家大小"
+            "开始调整玩家大小(事件玩家, 1, 真);"
         ],
-        "description": "开始调整玩家大小"
+        "description": "开始调整玩家大小(事件玩家, 1, 真);"
     },
-    "开始调整障碍大小_29df5": {
+    "开始调整障碍大小_3fb92": {
         "prefix": "kaishidiaozhengzhangaidaxiao",
         "body": [
-            "开始调整障碍大小"
+            "开始调整障碍大小(事件玩家, 1, 真);"
         ],
-        "description": "开始调整障碍大小"
+        "description": "开始调整障碍大小(事件玩家, 1, 真);"
     },
-    "开始修改英雄语音_7fd82": {
+    "开始修改英雄语音_9da23": {
         "prefix": "kaishixiugaiyingxiongyuyin",
         "body": [
-            "开始修改英雄语音"
+            "开始修改英雄语音(事件玩家, 1, 真);"
         ],
-        "description": "开始修改英雄语音"
+        "description": "开始修改英雄语音(事件玩家, 1, 真);"
     },
     "开启为机器人强制设置名称_ca569": {
         "prefix": "kaiqiweijiqirenqiangzhishezhimingcheng",
@@ -2008,124 +1960,124 @@
         ],
         "description": "开启为机器人强制设置名称"
     },
-    "开启与玩家的移动碰撞_e6123": {
+    "开启与玩家的移动碰撞_5e3a6": {
         "prefix": "kaiqiyuwanjiadeyidongpengzhuang",
         "body": [
-            "开启与玩家的移动碰撞"
+            "开启与玩家的移动碰撞(事件玩家);"
         ],
-        "description": "开启与玩家的移动碰撞"
+        "description": "开启与玩家的移动碰撞(事件玩家);"
     },
-    "开启与环境的移动碰撞_e1d68": {
+    "开启与环境的移动碰撞_a7fb3": {
         "prefix": "kaiqiyuhuanjingdeyidongpengzhuang",
         "body": [
-            "开启与环境的移动碰撞"
+            "开启与环境的移动碰撞(事件玩家);"
         ],
-        "description": "开启与环境的移动碰撞"
+        "description": "开启与环境的移动碰撞(事件玩家);"
     },
-    "取消主要动作_1425c": {
+    "取消主要动作_1688c": {
         "prefix": "quxiaozhuyaodongzuo",
         "body": [
-            "取消主要动作"
+            "取消主要动作(事件玩家);"
         ],
-        "description": "取消主要动作"
+        "description": "取消主要动作(事件玩家);"
     },
-    "取消与玩家的移动碰撞_e7f97": {
+    "取消与玩家的移动碰撞_5b56f": {
         "prefix": "quxiaoyuwanjiadeyidongpengzhuang",
         "body": [
-            "取消与玩家的移动碰撞"
+            "取消与玩家的移动碰撞(事件玩家);"
         ],
-        "description": "取消与玩家的移动碰撞"
+        "description": "取消与玩家的移动碰撞(事件玩家);"
     },
-    "取消与环境的移动碰撞_d5d83": {
+    "取消与环境的移动碰撞_13876": {
         "prefix": "quxiaoyuhuanjingdeyidongpengzhuang",
         "body": [
-            "取消与环境的移动碰撞"
+            "取消与环境的移动碰撞(事件玩家, 假);"
         ],
-        "description": "取消与环境的移动碰撞"
+        "description": "取消与环境的移动碰撞(事件玩家, 假);"
     },
-    "为玩家添加生命池_e946e": {
+    "为玩家添加生命池_b0e27": {
         "prefix": "weiwanjiatianjiashengmingchi",
         "body": [
-            "为玩家添加生命池"
+            "为玩家添加生命池(事件玩家, 护甲, 100, 真, 真);"
         ],
-        "description": "为玩家添加生命池"
+        "description": "为玩家添加生命池(事件玩家, 护甲, 100, 真, 真);"
     },
-    "类型的生命值_4adca": {
+    "类型的生命值_1fbef": {
         "prefix": "leixingdeshengmingzhi",
         "body": [
-            "类型的生命值"
+            "类型的生命值(事件玩家, 生命值)"
         ],
-        "description": "类型的生命值"
+        "description": "类型的生命值(事件玩家, 生命值)"
     },
-    "类型的最大生命值_27dab": {
+    "类型的最大生命值_bbe1d": {
         "prefix": "leixingdezuidashengmingzhi",
         "body": [
-            "类型的最大生命值"
+            "类型的最大生命值(事件玩家, 生命值)"
         ],
-        "description": "类型的最大生命值"
+        "description": "类型的最大生命值(事件玩家, 生命值)"
     },
-    "玩家英雄数据_52f53": {
+    "玩家英雄数据_5005f": {
         "prefix": "wanjiayingxiongshuju",
         "body": [
-            "玩家英雄数据"
+            "玩家英雄数据(事件玩家, 英雄(D.Va), 所有造成伤害量)"
         ],
-        "description": "玩家英雄数据"
+        "description": "玩家英雄数据(事件玩家, 英雄(D.Va), 所有造成伤害量)"
     },
-    "玩家数据_b7a06": {
+    "玩家数据_6301b": {
         "prefix": "wanjiashuju",
         "body": [
-            "玩家数据"
+            "玩家数据(事件玩家, 所有造成伤害量)"
         ],
-        "description": "玩家数据"
+        "description": "玩家数据(事件玩家, 所有造成伤害量)"
     },
-    "处于非初始状态_1d9b0": {
+    "处于非初始状态_def54": {
         "prefix": "chuyufeichushizhuangtai",
         "body": [
-            "处于非初始状态"
+            "处于非初始状态(事件玩家)"
         ],
-        "description": "处于非初始状态"
+        "description": "处于非初始状态(事件玩家)"
     },
-    "传送_9ce94": {
+    "传送_90882": {
         "prefix": "chuansong",
         "body": [
-            "传送"
+            "传送(事件玩家, 矢量(0, 0, 0));"
         ],
-        "description": "传送"
+        "description": "传送(事件玩家, 矢量(0, 0, 0));"
     },
-    "伤害_0482b": {
+    "伤害_6a40c": {
         "prefix": "shanghai",
         "body": [
-            "伤害"
+            "伤害(事件玩家, 无, 0);"
         ],
-        "description": "伤害"
+        "description": "伤害(事件玩家, 无, 0);"
     },
-    "重生_5e299": {
+    "重生_9d168": {
         "prefix": "zhongsheng",
         "body": [
-            "重生"
+            "重生(事件玩家);"
         ],
-        "description": "重生"
+        "description": "重生(事件玩家);"
     },
-    "击杀_2a168": {
+    "击杀_2bcb4": {
         "prefix": "jisha",
         "body": [
-            "击杀"
+            "击杀(事件玩家, 无);"
         ],
-        "description": "击杀"
+        "description": "击杀(事件玩家, 无);"
     },
-    "修改玩家分数_46c49": {
+    "修改玩家分数_5310e": {
         "prefix": "xiugaiwanjiafenshu",
         "body": [
-            "修改玩家分数"
+            "修改玩家分数(事件玩家, 0);"
         ],
-        "description": "修改玩家分数"
+        "description": "修改玩家分数(事件玩家, 0);"
     },
-    "停止伤害调整_50f70": {
+    "停止伤害调整_55542": {
         "prefix": "tingzhishanghaidiaozheng",
         "body": [
-            "停止伤害调整"
+            "停止伤害调整(上一个伤害调整ID);"
         ],
-        "description": "停止伤害调整"
+        "description": "停止伤害调整(上一个伤害调整ID);"
     },
     "治疗调整数量_c3c92": {
         "prefix": "zhiliaodiaozhengshuliang",
@@ -2155,19 +2107,19 @@
         ],
         "description": "持续治疗数量"
     },
-    "停止加速_85eb6": {
+    "停止加速_1a694": {
         "prefix": "tingzhijiasu",
         "body": [
-            "停止加速"
+            "停止加速(事件玩家);"
         ],
-        "description": "停止加速"
+        "description": "停止加速(事件玩家);"
     },
-    "停止强制玩家选择英雄_d9c27": {
+    "停止强制玩家选择英雄_62287": {
         "prefix": "tingzhiqiangzhiwanjiaxuanzeyingxiong",
         "body": [
-            "停止强制玩家选择英雄"
+            "停止强制玩家选择英雄(事件玩家);"
         ],
-        "description": "停止强制玩家选择英雄"
+        "description": "停止强制玩家选择英雄(事件玩家);"
     },
     "停止所有伤害调整_1d5af": {
         "prefix": "tingzhisuoyoushanghaidiaozheng",
@@ -2176,19 +2128,19 @@
         ],
         "description": "停止所有伤害调整"
     },
-    "停止所有持续伤害_67e0e": {
+    "停止所有持续伤害_80b5b": {
         "prefix": "tingzhisuoyouchixushanghai",
         "body": [
-            "停止所有持续伤害"
+            "停止所有持续伤害(事件玩家);"
         ],
-        "description": "停止所有持续伤害"
+        "description": "停止所有持续伤害(事件玩家);"
     },
-    "停止所有持续治疗_5aae7": {
+    "停止所有持续治疗_937bf": {
         "prefix": "tingzhisuoyouchixuzhiliao",
         "body": [
-            "停止所有持续治疗"
+            "停止所有持续治疗(事件玩家);"
         ],
-        "description": "停止所有持续治疗"
+        "description": "停止所有持续治疗(事件玩家);"
     },
     "停止所有助攻_e28f9": {
         "prefix": "tingzhisuoyouzhugong",
@@ -2204,47 +2156,47 @@
         ],
         "description": "停止所有治疗调整"
     },
-    "停止持续伤害_8d9eb": {
+    "停止持续伤害_72bd2": {
         "prefix": "tingzhichixushanghai",
         "body": [
-            "停止持续伤害"
+            "停止持续伤害(上一个持续伤害效果ID);"
         ],
-        "description": "停止持续伤害"
+        "description": "停止持续伤害(上一个持续伤害效果ID);"
     },
-    "停止治疗调整_7060e": {
+    "停止治疗调整_db79a": {
         "prefix": "tingzhizhiliaodiaozheng",
         "body": [
-            "停止治疗调整"
+            "停止治疗调整(上一个治疗调整ID);"
         ],
-        "description": "停止治疗调整"
+        "description": "停止治疗调整(上一个治疗调整ID);"
     },
-    "停止持续治疗_aaf37": {
+    "停止持续治疗_1d022": {
         "prefix": "tingzhichixuzhiliao",
         "body": [
-            "停止持续治疗"
+            "停止持续治疗(事件玩家.A);"
         ],
-        "description": "停止持续治疗"
+        "description": "停止持续治疗(事件玩家.A);"
     },
-    "停止按下按钮_b2d8e": {
+    "停止按下按钮_e4298": {
         "prefix": "tingzhianxiaanniu",
         "body": [
-            "停止按下按钮"
+            "停止按下按钮(事件玩家, 按钮(主要攻击模式));"
         ],
-        "description": "停止按下按钮"
+        "description": "停止按下按钮(事件玩家, 按钮(主要攻击模式));"
     },
-    "停止朝向_67137": {
+    "停止朝向_bc400": {
         "prefix": "tingzhizhaoxiang",
         "body": [
-            "停止朝向"
+            "停止朝向(事件玩家);"
         ],
-        "description": "停止朝向"
+        "description": "停止朝向(事件玩家);"
     },
-    "停止镜头_a5f4c": {
+    "停止镜头_da0e8": {
         "prefix": "tingzhijingtou",
         "body": [
-            "停止镜头"
+            "停止镜头(事件玩家);"
         ],
-        "description": "停止镜头"
+        "description": "停止镜头(事件玩家);"
     },
     "停止调整_66135": {
         "prefix": "tingzhidiaozheng",
@@ -2253,138 +2205,138 @@
         ],
         "description": "停止调整"
     },
-    "停止调整障碍大小_3c07f": {
+    "停止调整障碍大小_8baed": {
         "prefix": "tingzhidiaozhengzhangaidaxiao",
         "body": [
-            "停止调整障碍大小"
+            "停止调整障碍大小(事件玩家);"
         ],
-        "description": "停止调整障碍大小"
+        "description": "停止调整障碍大小(事件玩家);"
     },
-    "停止限制阈值_0c8b8": {
+    "停止限制阈值_0a7c4": {
         "prefix": "tingzhixianzhiyuzhi",
         "body": [
-            "停止限制阈值"
+            "停止限制阈值(事件玩家);"
         ],
-        "description": "停止限制阈值"
+        "description": "停止限制阈值(事件玩家);"
     },
-    "对所有玩家启用死亡回放_f29e8": {
+    "对所有玩家启用死亡回放_7439a": {
         "prefix": "duisuoyouwanjiaqiyongsiwanghuifang",
         "body": [
-            "对所有玩家启用死亡回放"
+            "对所有玩家启用死亡回放(事件玩家);"
         ],
-        "description": "对所有玩家启用死亡回放"
+        "description": "对所有玩家启用死亡回放(事件玩家);"
     },
-    "对所有玩家禁用死亡回放_54390": {
+    "对所有玩家禁用死亡回放_04943": {
         "prefix": "duisuoyouwanjiajinyongsiwanghuifang",
         "body": [
-            "对所有玩家禁用死亡回放"
+            "对所有玩家禁用死亡回放(事件玩家);"
         ],
-        "description": "对所有玩家禁用死亡回放"
+        "description": "对所有玩家禁用死亡回放(事件玩家);"
     },
-    "开始伤害调整_aa3ff": {
+    "开始伤害调整_e6b7f": {
         "prefix": "kaishishanghaidiaozheng",
         "body": [
-            "开始伤害调整"
+            "开始伤害调整(事件玩家, 所有玩家(所有队伍), 100, 受伤害者，伤害者及伤害百分比);"
         ],
-        "description": "开始伤害调整"
+        "description": "开始伤害调整(事件玩家, 所有玩家(所有队伍), 100, 受伤害者，伤害者及伤害百分比);"
     },
-    "开始加速_6b19c": {
+    "开始加速_65d2e": {
         "prefix": "kaishijiasu",
         "body": [
-            "开始加速"
+            "开始加速(事件玩家, 矢量(0, 0, 0), 100, 20, 至地图, 方向，速率，及最大速度);"
         ],
-        "description": "开始加速"
+        "description": "开始加速(事件玩家, 矢量(0, 0, 0), 100, 20, 至地图, 方向，速率，及最大速度);"
     },
-    "开始强制玩家选择英雄_3c859": {
+    "开始强制玩家选择英雄_6cd57": {
         "prefix": "kaishiqiangzhiwanjiaxuanzeyingxiong",
         "body": [
-            "开始强制玩家选择英雄"
+            "开始强制玩家选择英雄(事件玩家, 英雄(D.Va));"
         ],
-        "description": "开始强制玩家选择英雄"
+        "description": "开始强制玩家选择英雄(事件玩家, 英雄(D.Va));"
     },
-    "开始强制设置玩家位置_aa80c": {
+    "开始强制设置玩家位置_15bc1": {
         "prefix": "kaishiqiangzhishezhiwanjiaweizhi",
         "body": [
-            "开始强制设置玩家位置"
+            "开始强制设置玩家位置(事件玩家, 矢量(0, 0, 0), 真);"
         ],
-        "description": "开始强制设置玩家位置"
+        "description": "开始强制设置玩家位置(事件玩家, 矢量(0, 0, 0), 真);"
     },
-    "开始强制设置玩家轮廓_716b5": {
+    "开始强制设置玩家轮廓_12a71": {
         "prefix": "kaishiqiangzhishezhiwanjialunkuo",
         "body": [
-            "开始强制设置玩家轮廓"
+            "开始强制设置玩家轮廓(事件玩家, 所有玩家(所有队伍), 真, 颜色(白色), 默认);"
         ],
-        "description": "开始强制设置玩家轮廓"
+        "description": "开始强制设置玩家轮廓(事件玩家, 所有玩家(所有队伍), 真, 颜色(白色), 默认);"
     },
-    "开始持续伤害_22f04": {
+    "开始持续伤害_c13af": {
         "prefix": "kaishichixushanghai",
         "body": [
-            "开始持续伤害"
+            "开始持续伤害(事件玩家, 无, 9999, 20);"
         ],
-        "description": "开始持续伤害"
+        "description": "开始持续伤害(事件玩家, 无, 9999, 20);"
     },
-    "开始持续治疗_2b8fa": {
+    "开始持续治疗_af635": {
         "prefix": "kaishichixuzhiliao",
         "body": [
-            "开始持续治疗"
+            "开始持续治疗(事件玩家, 事件玩家, 9999, 20);"
         ],
-        "description": "开始持续治疗"
+        "description": "开始持续治疗(事件玩家, 事件玩家, 9999, 20);"
     },
-    "开始按下按钮_3dc63": {
+    "开始按下按钮_c8c90": {
         "prefix": "kaishianxiaanniu",
         "body": [
-            "开始按下按钮"
+            "开始按下按钮(事件玩家, 按钮(主要攻击模式));"
         ],
-        "description": "开始按下按钮"
+        "description": "开始按下按钮(事件玩家, 按钮(主要攻击模式));"
     },
-    "开始朝向_2adf1": {
+    "开始朝向_17250": {
         "prefix": "kaishizhaoxiang",
         "body": [
-            "开始朝向"
+            "开始朝向(事件玩家, 矢量(0, 0, 0), 100, 至地图, 方向及角速率);"
         ],
-        "description": "开始朝向"
+        "description": "开始朝向(事件玩家, 矢量(0, 0, 0), 100, 至地图, 方向及角速率);"
     },
-    "开始镜头_5b0ce": {
+    "开始镜头_197c6": {
         "prefix": "kaishijingtou",
         "body": [
-            "开始镜头"
+            "开始镜头(事件玩家, 矢量(0, 0, 0), 矢量(0, 0, 0), 0);"
         ],
-        "description": "开始镜头"
+        "description": "开始镜头(事件玩家, 矢量(0, 0, 0), 矢量(0, 0, 0), 0);"
     },
-    "开始限制阈值_6549f": {
+    "开始限制阈值_2fe7b": {
         "prefix": "kaishixianzhiyuzhi",
         "body": [
-            "开始限制阈值"
+            "开始限制阈值(事件玩家, 0, 1, 0, 1, 0, 1);"
         ],
-        "description": "开始限制阈值"
+        "description": "开始限制阈值(事件玩家, 0, 1, 0, 1, 0, 1);"
     },
-    "开始定向阈值_f92c7": {
+    "开始定向阈值_de41d": {
         "prefix": "kaishidingxiangyuzhi",
         "body": [
-            "开始定向阈值"
+            "开始定向阈值(事件玩家, 矢量(0, 0, 0), 1, 至地图, 替换现有阈值, 方向和幅度);"
         ],
-        "description": "开始定向阈值"
+        "description": "开始定向阈值(事件玩家, 矢量(0, 0, 0), 1, 至地图, 替换现有阈值, 方向和幅度);"
     },
-    "停止定向阈值_74a89": {
+    "停止定向阈值_ef6fc": {
         "prefix": "tingzhidingxiangyuzhi",
         "body": [
-            "停止定向阈值"
+            "停止定向阈值(事件玩家);"
         ],
-        "description": "停止定向阈值"
+        "description": "停止定向阈值(事件玩家);"
     },
-    "创建光束效果_86c88": {
+    "创建光束效果_55e75": {
         "prefix": "chuangjianguangshuxiaoguo",
         "body": [
-            "创建光束效果"
+            "创建光束效果(所有玩家(所有队伍), 有益光束, 事件玩家, 事件玩家, 颜色(白色), 可见，位置和半径);"
         ],
-        "description": "创建光束效果"
+        "description": "创建光束效果(所有玩家(所有队伍), 有益光束, 事件玩家, 事件玩家, 颜色(白色), 可见，位置和半径);"
     },
-    "生成机器人_6341f": {
+    "生成机器人_b0eb2": {
         "prefix": "shengchengjiqiren",
         "body": [
-            "生成机器人"
+            "生成机器人(英雄(D.Va), 所有队伍, -1, 矢量(0, 0, 0), 矢量(0, 0, 0));"
         ],
-        "description": "生成机器人"
+        "description": "生成机器人(英雄(D.Va), 所有队伍, -1, 矢量(0, 0, 0), 矢量(0, 0, 0));"
     },
     "移除所有机器人_b238c": {
         "prefix": "yichusuoyoujiqiren",
@@ -2393,40 +2345,40 @@
         ],
         "description": "移除所有机器人"
     },
-    "移除机器人_d7d9d": {
+    "移除机器人_76d94": {
         "prefix": "yichujiqiren",
         "body": [
-            "移除机器人"
+            "移除机器人(所有队伍, 0);"
         ],
-        "description": "移除机器人"
+        "description": "移除机器人(所有队伍, 0);"
     },
-    "停止为机器人强制设置名称_f5be7": {
+    "停止为机器人强制设置名称_8b14c": {
         "prefix": "tingzhiweijiqirenqiangzhishezhimingcheng",
         "body": [
-            "停止为机器人强制设置名称"
+            "停止为机器人强制设置名称(事件玩家);"
         ],
-        "description": "停止为机器人强制设置名称"
+        "description": "停止为机器人强制设置名称(事件玩家);"
     },
-    "停止修改英雄语音_988c4": {
+    "停止修改英雄语音_7e5d1": {
         "prefix": "tingzhixiugaiyingxiongyuyin",
         "body": [
-            "停止修改英雄语音"
+            "停止修改英雄语音(事件玩家);"
         ],
-        "description": "停止修改英雄语音"
+        "description": "停止修改英雄语音(事件玩家);"
     },
-    "停止强制设置玩家位置_33b3b": {
+    "停止强制设置玩家位置_197d0": {
         "prefix": "tingzhiqiangzhishezhiwanjiaweizhi",
         "body": [
-            "停止强制设置玩家位置"
+            "停止强制设置玩家位置(事件玩家);"
         ],
-        "description": "停止强制设置玩家位置"
+        "description": "停止强制设置玩家位置(事件玩家);"
     },
-    "停止强制设置玩家轮廓_c949e": {
+    "停止强制设置玩家轮廓_f8539": {
         "prefix": "tingzhiqiangzhishezhiwanjialunkuo",
         "body": [
-            "停止强制设置玩家轮廓"
+            "停止强制设置玩家轮廓(事件玩家, 所有玩家(所有队伍));"
         ],
-        "description": "停止强制设置玩家轮廓"
+        "description": "停止强制设置玩家轮廓(事件玩家, 所有玩家(所有队伍));"
     },
     "停止强制设置重生室_f943a": {
         "prefix": "tingzhiqiangzhishezhizhongshengshi",
@@ -2435,572 +2387,516 @@
         ],
         "description": "停止强制设置重生室"
     },
-    "开始转换阈值_d54d2": {
+    "开始转换阈值_b054f": {
         "prefix": "kaishizhuanhuanyuzhi",
         "body": [
-            "开始转换阈值"
+            "开始转换阈值(事件玩家, 1, 1, 矢量(0, 0, 0));"
         ],
-        "description": "开始转换阈值"
+        "description": "开始转换阈值(事件玩家, 1, 1, 矢量(0, 0, 0));"
     },
-    "停止转换阈值_ccd4f": {
+    "停止转换阈值_92b1e": {
         "prefix": "tingzhizhuanhuanyuzhi",
         "body": [
-            "停止转换阈值"
+            "停止转换阈值(事件玩家);"
         ],
-        "description": "停止转换阈值"
+        "description": "停止转换阈值(事件玩家);"
     },
-    "停止助攻_58da2": {
+    "停止助攻_0cc5e": {
         "prefix": "tingzhizhugong",
         "body": [
-            "停止助攻"
+            "停止助攻(上一个助攻ID);"
         ],
-        "description": "停止助攻"
+        "description": "停止助攻(上一个助攻ID);"
     },
-    "按下按键_6d9ad": {
+    "按下按键_4aba8": {
         "prefix": "anxiaanjian",
         "body": [
-            "按下按键"
+            "按下按键(事件玩家, 按钮(主要攻击模式));"
         ],
-        "description": "按下按键"
+        "description": "按下按键(事件玩家, 按钮(主要攻击模式));"
     },
-    "施加推力_82a5b": {
+    "施加推力_90db3": {
         "prefix": "shijiatuili",
         "body": [
-            "施加推力"
+            "施加推力(事件玩家, 矢量(0, 0, 0), 0, 至地图, 取消相反运动);"
         ],
-        "description": "施加推力"
+        "description": "施加推力(事件玩家, 矢量(0, 0, 0), 0, 至地图, 取消相反运动);"
     },
-    "启用死亡回放时目标的HUD_d2e23": {
+    "启用死亡回放时目标的HUD_97bf8": {
         "prefix": "qiyongsiwanghuifangshimubiaodeHUD",
         "body": [
-            "启用死亡回放时目标的HUD"
+            "启用死亡回放时目标的HUD(事件玩家);"
         ],
-        "description": "启用死亡回放时目标的HUD"
+        "description": "启用死亡回放时目标的HUD(事件玩家);"
     },
-    "禁用死亡回放时目标的HUD_c5272": {
+    "禁用死亡回放时目标的HUD_c8152": {
         "prefix": "jinyongsiwanghuifangshimubiaodeHUD",
         "body": [
-            "禁用死亡回放时目标的HUD"
+            "禁用死亡回放时目标的HUD(事件玩家);"
         ],
-        "description": "禁用死亡回放时目标的HUD"
+        "description": "禁用死亡回放时目标的HUD(事件玩家);"
     },
-    "交流_d8a6b": {
+    "交流_e3c87": {
         "prefix": "jiaoliu",
         "body": [
-            "交流"
+            "交流(事件玩家, 语音（上）);"
         ],
-        "description": "交流"
+        "description": "交流(事件玩家, 语音（上）);"
     },
-    "治疗_a185e": {
+    "治疗_6725c": {
         "prefix": "zhiliao",
         "body": [
-            "治疗"
+            "治疗(事件玩家, 无, 0);"
         ],
-        "description": "治疗"
+        "description": "治疗(事件玩家, 无, 0);"
     },
-    "清除状态_dba93": {
+    "清除状态_f0c42": {
         "prefix": "qingchuzhuangtai",
         "body": [
-            "清除状态"
+            "清除状态(事件玩家, 被入侵);"
         ],
-        "description": "清除状态"
+        "description": "清除状态(事件玩家, 被入侵);"
     },
-    "禁用按钮_b6061": {
+    "禁用按钮_9ae14": {
         "prefix": "jinyonganniu",
         "body": [
-            "禁用按钮"
+            "禁用按钮(事件玩家, 按钮(主要攻击模式));"
         ],
-        "description": "禁用按钮"
+        "description": "禁用按钮(事件玩家, 按钮(主要攻击模式));"
     },
-    "可用按钮_5ecb9": {
+    "可用按钮_a0e3b": {
         "prefix": "keyonganniu",
         "body": [
-            "可用按钮"
+            "可用按钮(事件玩家, 按钮(主要攻击模式));"
         ],
-        "description": "可用按钮"
+        "description": "可用按钮(事件玩家, 按钮(主要攻击模式));"
     },
-    "设置不可见_24781": {
+    "设置不可见_84b1a": {
         "prefix": "shezhibukejian",
         "body": [
-            "设置不可见"
+            "设置不可见(事件玩家, 全部);"
         ],
-        "description": "设置不可见"
+        "description": "设置不可见(事件玩家, 全部);"
     },
-    "设置主要攻击模式启用_11070": {
+    "设置主要攻击模式启用_39300": {
         "prefix": "shezhizhuyaogongjimoshiqiyong",
         "body": [
-            "设置主要攻击模式启用"
+            "设置主要攻击模式启用(事件玩家, 真);"
         ],
-        "description": "设置主要攻击模式启用"
+        "description": "设置主要攻击模式启用(事件玩家, 真);"
     },
-    "设置受到的击退_9d6cc": {
+    "设置受到的击退_9575e": {
         "prefix": "shezhishoudaodejitui",
         "body": [
-            "设置受到的击退"
+            "设置受到的击退(事件玩家, 100);"
         ],
-        "description": "设置受到的击退"
+        "description": "设置受到的击退(事件玩家, 100);"
     },
-    "设置受到伤害_d6dfe": {
+    "设置受到伤害_cc53c": {
         "prefix": "shezhishoudaoshanghai",
         "body": [
-            "设置受到伤害"
+            "设置受到伤害(事件玩家, 100);"
         ],
-        "description": "设置受到伤害"
+        "description": "设置受到伤害(事件玩家, 100);"
     },
-    "设置受到治疗_7e4ba": {
+    "设置受到治疗_43a93": {
         "prefix": "shezhishoudaozhiliao",
         "body": [
-            "设置受到治疗"
+            "设置受到治疗(事件玩家, 100);"
         ],
-        "description": "设置受到治疗"
+        "description": "设置受到治疗(事件玩家, 100);"
     },
-    "设置启用技能 1_cab2e": {
-        "prefix": "shezhiqiyongjineng 1",
+    "设置启用技能 1_fbe38": {
+        "prefix": "shezhiqiyongjineng",
         "body": [
-            "设置启用技能 1"
+            "设置启用技能 1(事件玩家, 真);"
         ],
-        "description": "设置启用技能 1"
+        "description": "设置启用技能 1(事件玩家, 真);"
     },
-    "设置启用技能 2_48604": {
-        "prefix": "shezhiqiyongjineng 2",
+    "设置启用技能 2_7fc5c": {
+        "prefix": "shezhiqiyongjineng",
         "body": [
-            "设置启用技能 2"
+            "设置启用技能 2(事件玩家, 真);"
         ],
-        "description": "设置启用技能 2"
+        "description": "设置启用技能 2(事件玩家, 真);"
     },
-    "设置启用终极技能_5f942": {
+    "设置启用终极技能_de6e6": {
         "prefix": "shezhiqiyongzhongjijineng",
         "body": [
-            "设置启用终极技能"
+            "设置启用终极技能(事件玩家, 真);"
         ],
-        "description": "设置启用终极技能"
+        "description": "设置启用终极技能(事件玩家, 真);"
     },
-    "设置启用装填_9b9d5": {
+    "设置启用装填_76c42": {
         "prefix": "shezhiqiyongzhuangtian",
         "body": [
-            "设置启用装填"
+            "设置启用装填(事件玩家, 真);"
         ],
-        "description": "设置启用装填"
+        "description": "设置启用装填(事件玩家, 真);"
     },
-    "设置启用跳跃_a0b5f": {
+    "设置启用跳跃_85aab": {
         "prefix": "shezhiqiyongtiaoyue",
         "body": [
-            "设置启用跳跃"
+            "设置启用跳跃(事件玩家, 真);"
         ],
-        "description": "设置启用跳跃"
+        "description": "设置启用跳跃(事件玩家, 真);"
     },
-    "设置启用蹲下_df4d8": {
+    "设置启用蹲下_7b276": {
         "prefix": "shezhiqiyongdunxia",
         "body": [
-            "设置启用蹲下"
+            "设置启用蹲下(事件玩家, 真);"
         ],
-        "description": "设置启用蹲下"
+        "description": "设置启用蹲下(事件玩家, 真);"
     },
-    "设置启用近战攻击_2b083": {
+    "设置启用近战攻击_1cee0": {
         "prefix": "shezhiqiyongjinzhangongji",
         "body": [
-            "设置启用近战攻击"
+            "设置启用近战攻击(事件玩家, 真);"
         ],
-        "description": "设置启用近战攻击"
+        "description": "设置启用近战攻击(事件玩家, 真);"
     },
-    "设置引力_9dc88": {
+    "设置引力_8ebc9": {
         "prefix": "shezhiyinli",
         "body": [
-            "设置引力"
+            "设置引力(事件玩家, 100);"
         ],
-        "description": "设置引力"
+        "description": "设置引力(事件玩家, 100);"
     },
-    "设置技能资源_d5fcc": {
+    "设置技能资源_5e551": {
         "prefix": "shezhijinengziyuan",
         "body": [
-            "设置技能资源"
+            "设置技能资源(事件玩家, 按钮(主要攻击模式), 0);"
         ],
-        "description": "设置技能资源"
+        "description": "设置技能资源(事件玩家, 按钮(主要攻击模式), 0);"
     },
-    "设置技能冷却_2aa3e": {
+    "设置技能冷却_437ad": {
         "prefix": "shezhijinenglengque",
         "body": [
-            "设置技能冷却"
+            "设置技能冷却(事件玩家, 按钮(主要攻击模式), 0);"
         ],
-        "description": "设置技能冷却"
+        "description": "设置技能冷却(事件玩家, 按钮(主要攻击模式), 0);"
     },
-    "设置技能充能_6b06a": {
+    "设置技能充能_c53c3": {
         "prefix": "shezhijinengchongneng",
         "body": [
-            "设置技能充能"
+            "设置技能充能(事件玩家, 按钮(主要攻击模式), 0);"
         ],
-        "description": "设置技能充能"
+        "description": "设置技能充能(事件玩家, 按钮(主要攻击模式), 0);"
     },
-    "设置弹道引力_ce75d": {
+    "设置弹道引力_4c177": {
         "prefix": "shezhidandaoyinli",
         "body": [
-            "设置弹道引力"
+            "设置弹道引力(事件玩家, 100);"
         ],
-        "description": "设置弹道引力"
+        "description": "设置弹道引力(事件玩家, 100);"
     },
-    "设置地形消灭者玩家_10a5a": {
+    "设置地形消灭者玩家_472f5": {
         "prefix": "shezhidixingxiaomiezhewanjia",
         "body": [
-            "设置地形消灭者玩家"
+            "设置地形消灭者玩家(事件玩家, 无);"
         ],
-        "description": "设置地形消灭者玩家"
+        "description": "设置地形消灭者玩家(事件玩家, 无);"
     },
-    "设置最大弹药_65983": {
+    "设置最大弹药_e0145": {
         "prefix": "shezhizuidadanyao",
         "body": [
-            "设置最大弹药"
+            "设置最大弹药(事件玩家, 0, 0);"
         ],
-        "description": "设置最大弹药"
+        "description": "设置最大弹药(事件玩家, 0, 0);"
     },
-    "设置弹道速度_1efd6": {
+    "设置弹道速度_fcfc3": {
         "prefix": "shezhidandaosudu",
         "body": [
-            "设置弹道速度"
+            "设置弹道速度(事件玩家, 100);"
         ],
-        "description": "设置弹道速度"
+        "description": "设置弹道速度(事件玩家, 100);"
     },
-    "设置最大生命值_c5492": {
+    "设置最大生命值_10f3e": {
         "prefix": "shezhizuidashengmingzhi",
         "body": [
-            "设置最大生命值"
+            "设置最大生命值(事件玩家, 100);"
         ],
-        "description": "设置最大生命值"
+        "description": "设置最大生命值(事件玩家, 100);"
     },
-    "设置最大重生时间_add9e": {
+    "设置最大重生时间_acc73": {
         "prefix": "shezhizuidazhongshengshijian",
         "body": [
-            "设置最大重生时间"
+            "设置最大重生时间(事件玩家, 10);"
         ],
-        "description": "设置最大重生时间"
+        "description": "设置最大重生时间(事件玩家, 10);"
     },
-    "设置朝向_576f7": {
+    "设置朝向_edf15": {
         "prefix": "shezhizhaoxiang",
         "body": [
-            "设置朝向"
+            "设置朝向(事件玩家, 矢量(0, 0, 0), 至地图);"
         ],
-        "description": "设置朝向"
+        "description": "设置朝向(事件玩家, 矢量(0, 0, 0), 至地图);"
     },
-    "设置状态_a9915": {
+    "设置状态_1266d": {
         "prefix": "shezhizhuangtai",
         "body": [
-            "设置状态"
+            "设置状态(事件玩家, 无, 被入侵, 9999);"
         ],
-        "description": "设置状态"
+        "description": "设置状态(事件玩家, 无, 被入侵, 9999);"
     },
-    "设置玩家生命值_e379c": {
+    "设置玩家生命值_630fa": {
         "prefix": "shezhiwanjiashengmingzhi",
         "body": [
-            "设置玩家生命值"
+            "设置玩家生命值(事件玩家, 1);"
         ],
-        "description": "设置玩家生命值"
+        "description": "设置玩家生命值(事件玩家, 1);"
     },
-    "设置玩家分数_e1852": {
+    "设置玩家分数_3c615": {
         "prefix": "shezhiwanjiafenshu",
         "body": [
-            "设置玩家分数"
+            "设置玩家分数(事件玩家, 0);"
         ],
-        "description": "设置玩家分数"
+        "description": "设置玩家分数(事件玩家, 0);"
     },
-    "设置玩家可选的英雄_125d9": {
+    "设置玩家可选的英雄_7656a": {
         "prefix": "shezhiwanjiakexuandeyingxiong",
         "body": [
-            "设置玩家可选的英雄"
+            "设置玩家可选的英雄(事件玩家, 英雄(D.Va));"
         ],
-        "description": "设置玩家可选的英雄"
+        "description": "设置玩家可选的英雄(事件玩家, 英雄(D.Va));"
     },
-    "设置瞄准速度_7c2ab": {
+    "设置瞄准速度_7dd94": {
         "prefix": "shezhimiaozhunsudu",
         "body": [
-            "设置瞄准速度"
+            "设置瞄准速度(事件玩家, 100);"
         ],
-        "description": "设置瞄准速度"
+        "description": "设置瞄准速度(事件玩家, 100);"
     },
-    "设置跳跃垂直速度_fb126": {
+    "设置跳跃垂直速度_ca40b": {
         "prefix": "shezhitiaoyuechuizhisudu",
         "body": [
-            "设置跳跃垂直速度"
+            "设置跳跃垂直速度(事件玩家, 100);"
         ],
-        "description": "设置跳跃垂直速度"
+        "description": "设置跳跃垂直速度(事件玩家, 100);"
     },
-    "设置移动速度_f06ef": {
+    "设置移动速度_568df": {
         "prefix": "shezhiyidongsudu",
         "body": [
-            "设置移动速度"
+            "设置移动速度(事件玩家, 100);"
         ],
-        "description": "设置移动速度"
+        "description": "设置移动速度(事件玩家, 100);"
     },
-    "设置终极技能充能_18bc7": {
+    "设置终极技能充能_6e67c": {
         "prefix": "shezhizhongjijinengchongneng",
         "body": [
-            "设置终极技能充能"
+            "设置终极技能充能(事件玩家, 100);"
         ],
-        "description": "设置终极技能充能"
+        "description": "设置终极技能充能(事件玩家, 100);"
     },
-    "设置辅助攻击模式启用_dd97c": {
+    "设置辅助攻击模式启用_4d879": {
         "prefix": "shezhifuzhugongjimoshiqiyong",
         "body": [
-            "设置辅助攻击模式启用"
+            "设置辅助攻击模式启用(事件玩家, 真);"
         ],
-        "description": "设置辅助攻击模式启用"
+        "description": "设置辅助攻击模式启用(事件玩家, 真);"
     },
-    "设置造成的击退_aad51": {
+    "设置造成的击退_85e04": {
         "prefix": "shezhizaochengdejitui",
         "body": [
-            "设置造成的击退"
+            "设置造成的击退(事件玩家, 100);"
         ],
-        "description": "设置造成的击退"
+        "description": "设置造成的击退(事件玩家, 100);"
     },
-    "设置造成伤害_f28c4": {
+    "设置造成伤害_fd792": {
         "prefix": "shezhizaochengshanghai",
         "body": [
-            "设置造成伤害"
+            "设置造成伤害(事件玩家, 100);"
         ],
-        "description": "设置造成伤害"
+        "description": "设置造成伤害(事件玩家, 100);"
     },
-    "设置造成治疗_c74a0": {
+    "设置造成治疗_fb200": {
         "prefix": "shezhizaochengzhiliao",
         "body": [
-            "设置造成治疗"
+            "设置造成治疗(事件玩家, 100);"
         ],
-        "description": "设置造成治疗"
+        "description": "设置造成治疗(事件玩家, 100);"
     },
-    "重置玩家英雄可选状态_085b6": {
+    "重置玩家英雄可选状态_093ca": {
         "prefix": "zhongzhiwanjiayingxiongkexuanzhuangtai",
         "body": [
-            "重置玩家英雄可选状态"
+            "重置玩家英雄可选状态(事件玩家);"
         ],
-        "description": "重置玩家英雄可选状态"
+        "description": "重置玩家英雄可选状态(事件玩家);"
     },
-    "预加载英雄_b4b98": {
+    "预加载英雄_5a36b": {
         "prefix": "yujiazaiyingxiong",
         "body": [
-            "预加载英雄"
+            "预加载英雄(事件玩家, 英雄(D.Va));"
         ],
-        "description": "预加载英雄"
+        "description": "预加载英雄(事件玩家, 英雄(D.Va));"
     },
-    "移除玩家_24ad8": {
+    "移除玩家_d04fa": {
         "prefix": "yichuwanjia",
         "body": [
-            "移除玩家"
+            "移除玩家(事件玩家);"
         ],
-        "description": "移除玩家"
+        "description": "移除玩家(事件玩家);"
     },
-    "移除玩家的所有生命值_6aa0f": {
+    "移除玩家的所有生命值_eb6e8": {
         "prefix": "yichuwanjiadesuoyoushengmingzhi",
         "body": [
-            "移除玩家的所有生命值"
+            "移除玩家的所有生命值(事件玩家);"
         ],
-        "description": "移除玩家的所有生命值"
+        "description": "移除玩家的所有生命值(事件玩家);"
     },
-    "移除玩家的生命池_78966": {
+    "移除玩家的生命池_c136c": {
         "prefix": "yichuwanjiadeshengmingchi",
         "body": [
-            "移除玩家的生命池"
+            "移除玩家的生命池(最后创建的生命池);"
         ],
-        "description": "移除玩家的生命池"
+        "description": "移除玩家的生命池(最后创建的生命池);"
     },
-    "调整玩家队伍_3816a": {
+    "调整玩家队伍_53070": {
         "prefix": "diaozhengwanjiaduiwu",
         "body": [
-            "调整玩家队伍"
+            "调整玩家队伍(事件玩家, 所有队伍, -1);"
         ],
-        "description": "调整玩家队伍"
+        "description": "调整玩家队伍(事件玩家, 所有队伍, -1);"
     },
-    "设置队伍分数_69377": {
+    "设置队伍分数_6cfa6": {
         "prefix": "shezhiduiwufenshu",
         "body": [
-            "设置队伍分数"
+            "设置队伍分数(所有队伍, 0);"
         ],
-        "description": "设置队伍分数"
+        "description": "设置队伍分数(所有队伍, 0);"
     },
-    "修改队伍分数_09713": {
+    "修改队伍分数_35086": {
         "prefix": "xiugaiduiwufenshu",
         "body": [
-            "修改队伍分数"
+            "修改队伍分数(所有队伍, 0);"
         ],
-        "description": "修改队伍分数"
+        "description": "修改队伍分数(所有队伍, 0);"
     },
-    "开始强制重生室_1faf7": {
+    "开始强制重生室_5d72c": {
         "prefix": "kaishiqiangzhizhongshengshi",
         "body": [
-            "开始强制重生室"
+            "开始强制重生室(所有队伍, 0);"
         ],
-        "description": "开始强制重生室"
+        "description": "开始强制重生室(所有队伍, 0);"
     },
-    "停止强制重生室_c2027": {
+    "停止强制重生室_db1a2": {
         "prefix": "tingzhiqiangzhizhongshengshi",
         "body": [
-            "停止强制重生室"
+            "停止强制重生室(所有队伍);"
         ],
-        "description": "停止强制重生室"
+        "description": "停止强制重生室(所有队伍);"
     },
-    "调用子程序_8fe4e": {
+    "调用子程序_da7d8": {
         "prefix": "diaoyongzichengxu",
         "body": [
-            "调用子程序"
+            "调用子程序(Sub0);"
         ],
-        "description": "调用子程序"
+        "description": "调用子程序(Sub0);"
     },
-    "开始规则_e2a0c": {
+    "开始规则_0fcbf": {
         "prefix": "kaishiguize",
         "body": [
-            "开始规则"
+            "开始规则(Sub0, 重新开始规则);"
         ],
-        "description": "开始规则"
+        "description": "开始规则(Sub0, 重新开始规则);"
     },
-    "单次赋值_7ecb1": {
+    "单次赋值_0ff84": {
         "prefix": "dancifuzhi",
         "body": [
-            "单次赋值"
+            "单次赋值(0)"
         ],
-        "description": "单次赋值"
+        "description": "单次赋值(0)"
     },
-    "设置全局变量_e6318": {
-        "prefix": "shezhiquanjubianliang",
-        "body": [
-            "设置全局变量"
-        ],
-        "description": "设置全局变量"
-    },
-    "设置玩家变量_261a8": {
-        "prefix": "shezhiwanjiabianliang",
-        "body": [
-            "设置玩家变量"
-        ],
-        "description": "设置玩家变量"
-    },
-    "修改全局变量_bfae2": {
-        "prefix": "xiugaiquanjubianliang",
-        "body": [
-            "修改全局变量"
-        ],
-        "description": "修改全局变量"
-    },
-    "修改玩家变量_b43cb": {
-        "prefix": "xiugaiwanjiabianliang",
-        "body": [
-            "修改玩家变量"
-        ],
-        "description": "修改玩家变量"
-    },
-    "在索引处设置全局变量_4e1ab": {
-        "prefix": "zaisuoyinchushezhiquanjubianliang",
-        "body": [
-            "在索引处设置全局变量"
-        ],
-        "description": "在索引处设置全局变量"
-    },
-    "在索引处设置玩家变量_b3366": {
-        "prefix": "zaisuoyinchushezhiwanjiabianliang",
-        "body": [
-            "在索引处设置玩家变量"
-        ],
-        "description": "在索引处设置玩家变量"
-    },
-    "在索引处修改全局变量_e5968": {
-        "prefix": "zaisuoyinchuxiugaiquanjubianliang",
-        "body": [
-            "在索引处修改全局变量"
-        ],
-        "description": "在索引处修改全局变量"
-    },
-    "在索引处修改玩家变量_748cc": {
-        "prefix": "zaisuoyinchuxiugaiwanjiabianliang",
-        "body": [
-            "在索引处修改玩家变量"
-        ],
-        "description": "在索引处修改玩家变量"
-    },
-    "持续追踪全局变量_58d90": {
+    "持续追踪全局变量_27ff0": {
         "prefix": "chixuzhuizongquanjubianliang",
         "body": [
-            "持续追踪全局变量"
+            "持续追踪全局变量(A, 0, 1, 终点及持续时间);"
         ],
-        "description": "持续追踪全局变量"
+        "description": "持续追踪全局变量(A, 0, 1, 终点及持续时间);"
     },
-    "持续追踪玩家变量_b36c9": {
+    "持续追踪玩家变量_8ec64": {
         "prefix": "chixuzhuizongwanjiabianliang",
         "body": [
-            "持续追踪玩家变量"
+            "持续追踪玩家变量(事件玩家, A, 0, 1, 终点及持续时间);"
         ],
-        "description": "持续追踪玩家变量"
+        "description": "持续追踪玩家变量(事件玩家, A, 0, 1, 终点及持续时间);"
     },
-    "追踪全局变量频率_a4182": {
+    "追踪全局变量频率_83103": {
         "prefix": "zhuizongquanjubianliangpinlv",
         "body": [
-            "追踪全局变量频率"
+            "追踪全局变量频率(A, 0, 1, 速率及最终值);"
         ],
-        "description": "追踪全局变量频率"
+        "description": "追踪全局变量频率(A, 0, 1, 速率及最终值);"
     },
-    "追踪玩家变量频率_af5a4": {
+    "追踪玩家变量频率_46223": {
         "prefix": "zhuizongwanjiabianliangpinlv",
         "body": [
-            "追踪玩家变量频率"
+            "追踪玩家变量频率(事件玩家, A, 0, 1, 速率及最终值);"
         ],
-        "description": "追踪玩家变量频率"
+        "description": "追踪玩家变量频率(事件玩家, A, 0, 1, 速率及最终值);"
     },
-    "停止追踪全局变量_e77d6": {
+    "停止追踪全局变量_25381": {
         "prefix": "tingzhizhuizongquanjubianliang",
         "body": [
-            "停止追踪全局变量"
+            "停止追踪全局变量(A);"
         ],
-        "description": "停止追踪全局变量"
+        "description": "停止追踪全局变量(A);"
     },
-    "停止追踪玩家变量_01495": {
+    "停止追踪玩家变量_b6548": {
         "prefix": "tingzhizhuizongwanjiabianliang",
         "body": [
-            "停止追踪玩家变量"
+            "停止追踪玩家变量(事件玩家, A);"
         ],
-        "description": "停止追踪玩家变量"
+        "description": "停止追踪玩家变量(事件玩家, A);"
     },
-    "隐藏姓名板_e8101": {
+    "隐藏姓名板_5eff1": {
         "prefix": "yincangxingmingban",
         "body": [
-            "隐藏姓名板"
+            "隐藏姓名板(事件玩家, 所有玩家(所有队伍));"
         ],
-        "description": "隐藏姓名板"
+        "description": "隐藏姓名板(事件玩家, 所有玩家(所有队伍));"
     },
-    "隐藏消灭提示_7fa4c": {
+    "隐藏消灭提示_350a8": {
         "prefix": "yincangxiaomietishi",
         "body": [
-            "隐藏消灭提示"
+            "隐藏消灭提示(事件玩家);"
         ],
-        "description": "隐藏消灭提示"
+        "description": "隐藏消灭提示(事件玩家);"
     },
-    "隐藏游戏模式HUD_8b00b": {
+    "隐藏游戏模式HUD_d3fbe": {
         "prefix": "yincangyouximoshiHUD",
         "body": [
-            "隐藏游戏模式HUD"
+            "隐藏游戏模式HUD(事件玩家);"
         ],
-        "description": "隐藏游戏模式HUD"
+        "description": "隐藏游戏模式HUD(事件玩家);"
     },
-    "隐藏游戏模式地图UI_b7b28": {
+    "隐藏游戏模式地图UI_f7a63": {
         "prefix": "yincangyouximoshidituUI",
         "body": [
-            "隐藏游戏模式地图UI"
+            "隐藏游戏模式地图UI(事件玩家);"
         ],
-        "description": "隐藏游戏模式地图UI"
+        "description": "隐藏游戏模式地图UI(事件玩家);"
     },
-    "隐藏英雄HUD_bfd15": {
+    "隐藏英雄HUD_14ef4": {
         "prefix": "yincangyingxiongHUD",
         "body": [
-            "隐藏英雄HUD"
+            "隐藏英雄HUD(事件玩家);"
         ],
-        "description": "隐藏英雄HUD"
+        "description": "隐藏英雄HUD(事件玩家);"
     },
-    "隐藏计分板_442ae": {
+    "隐藏计分板_bbbb4": {
         "prefix": "yincangjifenban",
         "body": [
-            "隐藏计分板"
+            "隐藏计分板(事件玩家);"
         ],
-        "description": "隐藏计分板"
+        "description": "隐藏计分板(事件玩家);"
     },
-    "隐藏信息_16ae5": {
+    "隐藏信息_bafe8": {
         "prefix": "yincangxinxi",
         "body": [
-            "隐藏信息"
+            "隐藏信息(事件玩家);"
         ],
-        "description": "隐藏信息"
+        "description": "隐藏信息(事件玩家);"
     },
     "重新开始比赛_f4082": {
         "prefix": "zhongxinkaishibisai",
@@ -3016,12 +2912,12 @@
         ],
         "description": "返回大厅"
     },
-    "记入查看器_bc6fa": {
+    "记入查看器_117f1": {
         "prefix": "jiruchakanqi",
         "body": [
-            "记入查看器"
+            "记入查看器(自定义字符串(\"\"));"
         ],
-        "description": "记入查看器"
+        "description": "记入查看器(自定义字符串(\"\"));"
     },
     "禁用语音聊天禁用查看器录制_cbd62": {
         "prefix": "jinyongyuyinliaotianjinyongchakanqiluzhi",
@@ -3030,68 +2926,68 @@
         ],
         "description": "禁用语音聊天禁用查看器录制"
     },
-    "禁用文字聊天_e2e18": {
+    "禁用文字聊天_d6682": {
         "prefix": "jinyongwenziliaotian",
         "body": [
-            "禁用文字聊天"
+            "禁用文字聊天(事件玩家);"
         ],
-        "description": "禁用文字聊天"
+        "description": "禁用文字聊天(事件玩家);"
     },
-    "显示计分板_de5b9": {
+    "显示计分板_e7dbe": {
         "prefix": "xianshijifenban",
         "body": [
-            "显示计分板"
+            "显示计分板(事件玩家);"
         ],
-        "description": "显示计分板"
+        "description": "显示计分板(事件玩家);"
     },
-    "显示英雄HUD_894af": {
+    "显示英雄HUD_f4cac": {
         "prefix": "xianshiyingxiongHUD",
         "body": [
-            "显示英雄HUD"
+            "显示英雄HUD(事件玩家);"
         ],
-        "description": "显示英雄HUD"
+        "description": "显示英雄HUD(事件玩家);"
     },
-    "显示游戏模式地图UI_64d30": {
+    "显示游戏模式地图UI_c9aad": {
         "prefix": "xianshiyouximoshidituUI",
         "body": [
-            "显示游戏模式地图UI"
+            "显示游戏模式地图UI(事件玩家);"
         ],
-        "description": "显示游戏模式地图UI"
+        "description": "显示游戏模式地图UI(事件玩家);"
     },
-    "显示游戏模式HUD_bde0f": {
+    "显示游戏模式HUD_04a76": {
         "prefix": "xianshiyouximoshiHUD",
         "body": [
-            "显示游戏模式HUD"
+            "显示游戏模式HUD(事件玩家);"
         ],
-        "description": "显示游戏模式HUD"
+        "description": "显示游戏模式HUD(事件玩家);"
     },
-    "显示消灭提示_aa179": {
+    "显示消灭提示_51dbe": {
         "prefix": "xianshixiaomietishi",
         "body": [
-            "显示消灭提示"
+            "显示消灭提示(事件玩家);"
         ],
-        "description": "显示消灭提示"
+        "description": "显示消灭提示(事件玩家);"
     },
-    "显示姓名板_f457e": {
+    "显示姓名板_e9eef": {
         "prefix": "xianshixingmingban",
         "body": [
-            "显示姓名板"
+            "显示姓名板(事件玩家, 所有玩家(所有队伍));"
         ],
-        "description": "显示姓名板"
+        "description": "显示姓名板(事件玩家, 所有玩家(所有队伍));"
     },
-    "显示信息_526dc": {
+    "显示信息_2c70a": {
         "prefix": "xianshixinxi",
         "body": [
-            "显示信息"
+            "显示信息(事件玩家);"
         ],
-        "description": "显示信息"
+        "description": "显示信息(事件玩家);"
     },
-    "启用语音聊天_37ffd": {
+    "启用语音聊天_f16cf": {
         "prefix": "qiyongyuyinliaotian",
         "body": [
-            "启用语音聊天"
+            "启用语音聊天(事件玩家);"
         ],
-        "description": "启用语音聊天"
+        "description": "启用语音聊天(事件玩家);"
     },
     "启用查看器录制_769c7": {
         "prefix": "qiyongchakanqiluzhi",
@@ -3100,19 +2996,19 @@
         ],
         "description": "启用查看器录制"
     },
-    "启用文字聊天_6390d": {
+    "启用文字聊天_a9a21": {
         "prefix": "qiyongwenziliaotian",
         "body": [
-            "启用文字聊天"
+            "启用文字聊天(事件玩家);"
         ],
-        "description": "启用文字聊天"
+        "description": "启用文字聊天(事件玩家);"
     },
-    "逐帧更新_b73a5": {
+    "逐帧更新_84557": {
         "prefix": "zhuzhenggengxin",
         "body": [
-            "逐帧更新"
+            "逐帧更新(所选位置(事件玩家))"
         ],
-        "description": "逐帧更新"
+        "description": "逐帧更新(所选位置(事件玩家))"
     },
     "开启游戏预设完成条件_2415d": {
         "prefix": "kaiqiyouxiyushewanchengtiaojian",
@@ -3135,12 +3031,12 @@
         ],
         "description": "开启游戏预设通告模式"
     },
-    "开启游戏预设重生模式_88312": {
+    "开启游戏预设重生模式_cf693": {
         "prefix": "kaiqiyouxiyushezhongshengmoshi",
         "body": [
-            "开启游戏预设重生模式"
+            "开启游戏预设重生模式(事件玩家);"
         ],
-        "description": "开启游戏预设重生模式"
+        "description": "开启游戏预设重生模式(事件玩家);"
     },
     "开启游戏预设音乐模式_65c9b": {
         "prefix": "kaiqiyouxiyusheyinlemoshi",
@@ -3170,12 +3066,12 @@
         ],
         "description": "关闭游戏预设通告模式"
     },
-    "关闭游戏预设重生模式_a0f31": {
+    "关闭游戏预设重生模式_90795": {
         "prefix": "guanbiyouxiyushezhongshengmoshi",
         "body": [
-            "关闭游戏预设重生模式"
+            "关闭游戏预设重生模式(事件玩家);"
         ],
-        "description": "关闭游戏预设重生模式"
+        "description": "关闭游戏预设重生模式(事件玩家);"
     },
     "关闭游戏预设音乐模式_28c47": {
         "prefix": "guanbiyouxiyusheyinlemoshi",
@@ -3184,26 +3080,26 @@
         ],
         "description": "关闭游戏预设音乐模式"
     },
-    "宣告回合胜利_eafdf": {
+    "宣告回合胜利_56864": {
         "prefix": "xuangaohuiheshengli",
         "body": [
-            "宣告回合胜利"
+            "宣告回合胜利(所有队伍);"
         ],
-        "description": "宣告回合胜利"
+        "description": "宣告回合胜利(所有队伍);"
     },
-    "宣告玩家胜利_5c35e": {
+    "宣告玩家胜利_e5e51": {
         "prefix": "xuangaowanjiashengli",
         "body": [
-            "宣告玩家胜利"
+            "宣告玩家胜利(事件玩家);"
         ],
-        "description": "宣告玩家胜利"
+        "description": "宣告玩家胜利(事件玩家);"
     },
-    "宣告队伍胜利_43b9f": {
+    "宣告队伍胜利_738c4": {
         "prefix": "xuangaoduiwushengli",
         "body": [
-            "宣告队伍胜利"
+            "宣告队伍胜利(所有队伍);"
         ],
-        "description": "宣告队伍胜利"
+        "description": "宣告队伍胜利(所有队伍);"
     },
     "宣布比赛为平局_0174b": {
         "prefix": "xuanbubisaiweipingju",
@@ -3240,124 +3136,124 @@
         ],
         "description": "前往集结英雄"
     },
-    "设置比赛时间_4604d": {
+    "设置比赛时间_127f3": {
         "prefix": "shezhibisaishijian",
         "body": [
-            "设置比赛时间"
+            "设置比赛时间(60);"
         ],
-        "description": "设置比赛时间"
+        "description": "设置比赛时间(60);"
     },
-    "设置慢动作_d9cd1": {
+    "设置慢动作_40698": {
         "prefix": "shezhimandongzuo",
         "body": [
-            "设置慢动作"
+            "设置慢动作(100);"
         ],
-        "description": "设置慢动作"
+        "description": "设置慢动作(100);"
     },
-    "技能图标字符串_ec868": {
+    "技能图标字符串_423f1": {
         "prefix": "jinengtubiaozifuchuan",
         "body": [
-            "技能图标字符串"
+            "技能图标字符串(英雄(D.Va), 按钮(主要攻击模式))"
         ],
-        "description": "技能图标字符串"
+        "description": "技能图标字符串(英雄(D.Va), 按钮(主要攻击模式))"
     },
-    "创建HUD文本_cd09d": {
+    "创建HUD文本_1c2b6": {
         "prefix": "chuangjianHUDwenben",
         "body": [
-            "创建HUD文本"
+            "创建HUD文本(所有玩家(所有队伍), 自定义字符串(\"\"), 无, 无, 左边, 0, 颜色(白色), 颜色(白色), 颜色(白色), 可见和字符串, 默认可见度);"
         ],
-        "description": "创建HUD文本"
+        "description": "创建HUD文本(所有玩家(所有队伍), 自定义字符串(\"\"), 无, 无, 左边, 0, 颜色(白色), 颜色(白色), 颜色(白色), 可见和字符串, 默认可见度);"
     },
-    "创建进度条HUD文本_b494f": {
+    "创建进度条HUD文本_0aa5d": {
         "prefix": "chuangjianjindutiaoHUDwenben",
         "body": [
-            "创建进度条HUD文本"
+            "创建进度条HUD文本(所有玩家(所有队伍), 0, 自定义字符串(\"\"), 左边, 0, 颜色(白色), 颜色(白色), 可见，值和颜色, 默认可见度);"
         ],
-        "description": "创建进度条HUD文本"
+        "description": "创建进度条HUD文本(所有玩家(所有队伍), 0, 自定义字符串(\"\"), 左边, 0, 颜色(白色), 颜色(白色), 可见，值和颜色, 默认可见度);"
     },
-    "创建进度条地图文本_723bf": {
+    "创建进度条地图文本_8ef7d": {
         "prefix": "chuangjianjindutiaodituwenben",
         "body": [
-            "创建进度条地图文本"
+            "创建进度条地图文本(所有玩家(所有队伍), 0, 自定义字符串(\"\"), 事件玩家, 1, 根据表面截取, 颜色(白色), 颜色(白色), 可见，位置，值和颜色, 默认可见度);"
         ],
-        "description": "创建进度条地图文本"
+        "description": "创建进度条地图文本(所有玩家(所有队伍), 0, 自定义字符串(\"\"), 事件玩家, 1, 根据表面截取, 颜色(白色), 颜色(白色), 可见，位置，值和颜色, 默认可见度);"
     },
-    "创建图标_b4233": {
+    "创建图标_0e8eb": {
         "prefix": "chuangjiantubiao",
         "body": [
-            "创建图标"
+            "创建图标(所有玩家(所有队伍), 事件玩家, 箭头：向下, 可见和位置, 颜色(白色), 真);"
         ],
-        "description": "创建图标"
+        "description": "创建图标(所有玩家(所有队伍), 事件玩家, 箭头：向下, 可见和位置, 颜色(白色), 真);"
     },
-    "创建地图文本_8e56f": {
+    "创建地图文本_6a313": {
         "prefix": "chuangjiandituwenben",
         "body": [
-            "创建地图文本"
+            "创建地图文本(所有玩家(所有队伍), 自定义字符串(\"\"), 事件玩家, 1, 根据表面截取, 可见，位置和字符串, 颜色(白色), 默认可见度);"
         ],
-        "description": "创建地图文本"
+        "description": "创建地图文本(所有玩家(所有队伍), 自定义字符串(\"\"), 事件玩家, 1, 根据表面截取, 可见，位置和字符串, 颜色(白色), 默认可见度);"
     },
-    "播放效果_e989a": {
+    "播放效果_0e03e": {
         "prefix": "bofangxiaoguo",
         "body": [
-            "播放效果"
+            "播放效果(所有玩家(所有队伍), 有益爆炸, 颜色(白色), 事件玩家, 1);"
         ],
-        "description": "播放效果"
+        "description": "播放效果(所有玩家(所有队伍), 有益爆炸, 颜色(白色), 事件玩家, 1);"
     },
-    "创建效果_da4bd": {
+    "创建效果_932e1": {
         "prefix": "chuangjianxiaoguo",
         "body": [
-            "创建效果"
+            "创建效果(所有玩家(所有队伍), 球体, 颜色(白色), 事件玩家, 1, 可见，位置和半径);"
         ],
-        "description": "创建效果"
+        "description": "创建效果(所有玩家(所有队伍), 球体, 颜色(白色), 事件玩家, 1, 可见，位置和半径);"
     },
-    "小字体信息_83ea7": {
+    "小字体信息_3bfe1": {
         "prefix": "xiaozitixinxi",
         "body": [
-            "小字体信息"
+            "小字体信息(所有玩家(所有队伍), 自定义字符串(\"\"));"
         ],
-        "description": "小字体信息"
+        "description": "小字体信息(所有玩家(所有队伍), 自定义字符串(\"\"));"
     },
-    "大字体信息_e5130": {
+    "大字体信息_8ae06": {
         "prefix": "dazitixinxi",
         "body": [
-            "大字体信息"
+            "大字体信息(所有玩家(所有队伍), 自定义字符串(\"\"));"
         ],
-        "description": "大字体信息"
+        "description": "大字体信息(所有玩家(所有队伍), 自定义字符串(\"\"));"
     },
-    "设置目标点描述_dd97d": {
+    "设置目标点描述_704bb": {
         "prefix": "shezhimubiaodianmiaoshu",
         "body": [
-            "设置目标点描述"
+            "设置目标点描述(所有玩家(所有队伍), 自定义字符串(\"\"), 可见和字符串);"
         ],
-        "description": "设置目标点描述"
+        "description": "设置目标点描述(所有玩家(所有队伍), 自定义字符串(\"\"), 可见和字符串);"
     },
-    "消除HUD文本_d6f48": {
+    "消除HUD文本_8baa9": {
         "prefix": "xiaochuHUDwenben",
         "body": [
-            "消除HUD文本"
+            "消除HUD文本(上一个文本ID);"
         ],
-        "description": "消除HUD文本"
+        "description": "消除HUD文本(上一个文本ID);"
     },
-    "消除图标_d0789": {
+    "消除图标_b0407": {
         "prefix": "xiaochutubiao",
         "body": [
-            "消除图标"
+            "消除图标(最后创建的实体);"
         ],
-        "description": "消除图标"
+        "description": "消除图标(最后创建的实体);"
     },
-    "消除地图文本_f6fbc": {
+    "消除地图文本_41ea2": {
         "prefix": "xiaochudituwenben",
         "body": [
-            "消除地图文本"
+            "消除地图文本(上一个文本ID);"
         ],
-        "description": "消除地图文本"
+        "description": "消除地图文本(上一个文本ID);"
     },
-    "消除效果_4836e": {
+    "消除效果_00159": {
         "prefix": "xiaochuxiaoguo",
         "body": [
-            "消除效果"
+            "消除效果(最后创建的实体);"
         ],
-        "description": "消除效果"
+        "description": "消除效果(最后创建的实体);"
     },
     "消除所有HUD文本_f1594": {
         "prefix": "xiaochusuoyouHUDwenben",
@@ -3478,19 +3374,19 @@
         ],
         "description": "灰色"
     },
-    "自定义颜色_42c4a": {
+    "自定义颜色_c8ff4": {
         "prefix": "zidingyiyanse",
         "body": [
-            "自定义颜色"
+            "自定义颜色(255, 255, 255, 255)"
         ],
-        "description": "自定义颜色"
+        "description": "自定义颜色(255, 255, 255, 255)"
     },
-    "颜色_6f7ec": {
+    "颜色_83c2a": {
         "prefix": "yanse",
         "body": [
-            "颜色"
+            "颜色(白色)"
         ],
-        "description": "颜色"
+        "description": "颜色(白色)"
     },
     "文本_61438": {
         "prefix": "wenben",
@@ -3506,19 +3402,19 @@
         ],
         "description": "消除所有效果"
     },
-    "消除进度条HUD文本_dd8b8": {
+    "消除进度条HUD文本_57121": {
         "prefix": "xiaochujindutiaoHUDwenben",
         "body": [
-            "消除进度条HUD文本"
+            "消除进度条HUD文本(上一个文本ID);"
         ],
-        "description": "消除进度条HUD文本"
+        "description": "消除进度条HUD文本(上一个文本ID);"
     },
-    "消除进度条地图文本_da36b": {
+    "消除进度条地图文本_6ee1d": {
         "prefix": "xiaochujindutiaodituwenben",
         "body": [
-            "消除进度条地图文本"
+            "消除进度条地图文本(上一个文本ID);"
         ],
-        "description": "消除进度条地图文本"
+        "description": "消除进度条地图文本(上一个文本ID);"
     },
     "球体_27d9d": {
         "prefix": "qiuti",
@@ -3983,7 +3879,7 @@
         "description": "“死神”幽灵形态效果"
     },
     "“士兵：76”疾跑效果_e5d42": {
-        "prefix": "shibing：76jipaoxiaoguo",
+        "prefix": "shibingjipaoxiaoguo",
         "body": [
             "“士兵：76”疾跑效果"
         ],
@@ -4256,7 +4152,7 @@
         "description": "“黑影”位移传动声音"
     },
     "“士兵：76”疾跑开始声音_2235d": {
-        "prefix": "shibing：76jipaokaishishengyin",
+        "prefix": "shibingjipaokaishishengyin",
         "body": [
             "“士兵：76”疾跑开始声音"
         ],
@@ -4284,14 +4180,14 @@
         "description": "布丽吉塔流星飞锤范围治疗效果"
     },
     "D.Va微型飞弹爆炸效果_fa496": {
-        "prefix": "D.Vaweixingfeidanbaozhaxiaoguo",
+        "prefix": "DVaweixingfeidanbaozhaxiaoguo",
         "body": [
             "D.Va微型飞弹爆炸效果"
         ],
         "description": "D.Va微型飞弹爆炸效果"
     },
     "D.Va自毁爆炸效果_11224": {
-        "prefix": "D.Vazihuibaozhaxiaoguo",
+        "prefix": "DVazihuibaozhaxiaoguo",
         "body": [
             "D.Va自毁爆炸效果"
         ],
@@ -4634,28 +4530,28 @@
         "description": "查莉娅粒子炮爆炸声音"
     },
     "箭头:向下_2ba67": {
-        "prefix": "jiantou:xiangxia",
+        "prefix": "jiantouxiangxia",
         "body": [
             "箭头:向下"
         ],
         "description": "箭头:向下"
     },
     "箭头:向左_7233b": {
-        "prefix": "jiantou:xiangzuo",
+        "prefix": "jiantouxiangzuo",
         "body": [
             "箭头:向左"
         ],
         "description": "箭头:向左"
     },
     "箭头:向右_53f2c": {
-        "prefix": "jiantou:xiangyou",
+        "prefix": "jiantouxiangyou",
         "body": [
             "箭头:向右"
         ],
         "description": "箭头:向右"
     },
     "箭头:向上_d58fd": {
-        "prefix": "jiantou:xiangshang",
+        "prefix": "jiantouxiangshang",
         "body": [
             "箭头:向上"
         ],
@@ -4788,7 +4684,7 @@
         "description": "剧毒"
     },
     "剧毒2_0e821": {
-        "prefix": "judu2",
+        "prefix": "judu",
         "body": [
             "剧毒2"
         ],
@@ -4983,75 +4879,75 @@
         ],
         "description": "可见"
     },
-    "字符串中字符_66d28": {
+    "字符串中字符_a1162": {
         "prefix": "zifuchuanzhongzifu",
         "body": [
-            "字符串中字符"
+            "字符串中字符(全局.A, 0)"
         ],
-        "description": "字符串中字符"
+        "description": "字符串中字符(全局.A, 0)"
     },
-    "字符串分割_444bc": {
+    "字符串分割_f6b35": {
         "prefix": "zifuchuanfenge",
         "body": [
-            "字符串分割"
+            "字符串分割(全局.A, 全局.A)"
         ],
-        "description": "字符串分割"
+        "description": "字符串分割(全局.A, 全局.A)"
     },
-    "字符串包含_104a9": {
+    "字符串包含_cb73f": {
         "prefix": "zifuchuanbaohan",
         "body": [
-            "字符串包含"
+            "字符串包含(自定义字符串(\"\"), 自定义字符串(\"\"))"
         ],
-        "description": "字符串包含"
+        "description": "字符串包含(自定义字符串(\"\"), 自定义字符串(\"\"))"
     },
-    "字符串字符索引_988c5": {
+    "字符串字符索引_12606": {
         "prefix": "zifuchuanzifusuoyin",
         "body": [
-            "字符串字符索引"
+            "字符串字符索引(全局.A, 全局.A)"
         ],
-        "description": "字符串字符索引"
+        "description": "字符串字符索引(全局.A, 全局.A)"
     },
-    "字符串替换_3fd6d": {
+    "字符串替换_cb641": {
         "prefix": "zifuchuantihuan",
         "body": [
-            "字符串替换"
+            "字符串替换(全局.A, 全局.A, 全局.A)"
         ],
-        "description": "字符串替换"
+        "description": "字符串替换(全局.A, 全局.A, 全局.A)"
     },
-    "字符串长度_97807": {
+    "字符串长度_f0b9e": {
         "prefix": "zifuchuanchangdu",
         "body": [
-            "字符串长度"
+            "字符串长度(全局.A)"
         ],
-        "description": "字符串长度"
+        "description": "字符串长度(全局.A)"
     },
-    "截取字符串_5f316": {
+    "截取字符串_9c308": {
         "prefix": "jiequzifuchuan",
         "body": [
-            "截取字符串"
+            "截取字符串(全局.A, 0, 0)"
         ],
-        "description": "截取字符串"
+        "description": "截取字符串(全局.A, 0, 0)"
     },
-    "输入绑定字符串_6a52e": {
+    "输入绑定字符串_eb809": {
         "prefix": "shurubangdingzifuchuan",
         "body": [
-            "输入绑定字符串"
+            "输入绑定字符串(按钮(主要攻击模式))"
         ],
-        "description": "输入绑定字符串"
+        "description": "输入绑定字符串(按钮(主要攻击模式))"
     },
-    "数组_4b0e3": {
+    "数组_f77fc": {
         "prefix": "shuzu",
         "body": [
-            "数组"
+            "数组()"
         ],
-        "description": "数组"
+        "description": "数组()"
     },
-    "英雄_95738": {
+    "英雄_e82ab": {
         "prefix": "yingxiong",
         "body": [
-            "英雄"
+            "英雄(D.Va)"
         ],
-        "description": "英雄"
+        "description": "英雄(D.Va)"
     },
     "旋转_65645": {
         "prefix": "xuanzhuan",
@@ -5179,12 +5075,12 @@
         ],
         "description": "排序规则和颜色"
     },
-    "按钮_34557": {
+    "按钮_56685": {
         "prefix": "anniu",
         "body": [
-            "按钮"
+            "按钮(主要攻击模式)"
         ],
-        "description": "按钮"
+        "description": "按钮(主要攻击模式)"
     },
     "主要攻击模式_e5ea2": {
         "prefix": "zhuyaogongjimoshi",
@@ -5222,14 +5118,14 @@
         "description": "近身攻击"
     },
     "技能1_5c9f0": {
-        "prefix": "jineng1",
+        "prefix": "jineng",
         "body": [
             "技能1"
         ],
         "description": "技能1"
     },
     "技能2_724ea": {
-        "prefix": "jineng2",
+        "prefix": "jineng",
         "body": [
             "技能2"
         ],
@@ -5472,5 +5368,194 @@
             "所有屏障阻挡视线"
         ],
         "description": "所有屏障阻挡视线"
+    },
+    "If-Then-Else": {
+        "prefix": "ifthenelse",
+        "body": [
+            "(真 ? 0 : 0)"
+        ],
+        "description": "(真 ? 0 : 0)"
+    },
+    "与": {
+        "prefix": "yu",
+        "body": [
+            "(真 && 真) == 真"
+        ],
+        "description": "(真 && 真) == 真"
+    },
+    "或": {
+        "prefix": "huo",
+        "body": [
+            "(真 || 真) == 真"
+        ],
+        "description": "(真 || 真) == 真"
+    },
+    "非": {
+        "prefix": "fei",
+        "body": [
+            "!真"
+        ],
+        "description": "!真"
+    },
+    "比较": {
+        "prefix": "bijiao",
+        "body": [
+            "(0 == 0)"
+        ],
+        "description": "(0 == 0)"
+    },
+    "数字": {
+        "prefix": "shuzi",
+        "body": [
+            "0"
+        ],
+        "description": "0"
+    },
+    "加": {
+        "prefix": "jia",
+        "body": [
+            "0 + 0"
+        ],
+        "description": "0 + 0"
+    },
+    "减": {
+        "prefix": "jian",
+        "body": [
+            "0 - 0"
+        ],
+        "description": "0 - 0"
+    },
+    "乘": {
+        "prefix": "cheng",
+        "body": [
+            "0 * 0"
+        ],
+        "description": "0 * 0"
+    },
+    "除": {
+        "prefix": "chu",
+        "body": [
+            "0 / 0"
+        ],
+        "description": "0 / 0"
+    },
+    "乘方": {
+        "prefix": "chengfang",
+        "body": [
+            "0 ^ 0"
+        ],
+        "description": "0 ^ 0"
+    },
+    "余数": {
+        "prefix": "yushu",
+        "body": [
+            "0 % 0"
+        ],
+        "description": "0 % 0"
+    },
+    "在索引处修改全局变量": {
+        "prefix": "zaisuoyinchuxiugaiquanjubianliang",
+        "body": [
+            "全局.A[0] += 0;"
+        ],
+        "description": "全局.A[0] += 0;"
+    },
+    "在索引处修改玩家变量": {
+        "prefix": "zaisuoyinchuxiugaiwanjiabianliang",
+        "body": [
+            "事件玩家.A[0] += 0;"
+        ],
+        "description": "事件玩家.A[0] += 0;"
+    },
+    "在索引处设置全局变量": {
+        "prefix": "zaisuoyinchushezhiquanjubianliang",
+        "body": [
+            "全局.A[0] = 0;"
+        ],
+        "description": "全局.A[0] = 0;"
+    },
+    "在索引处设置玩家变量": {
+        "prefix": "zaisuoyinchushezhiwanjiabianliang",
+        "body": [
+            "事件玩家.A[0] = 0;"
+        ],
+        "description": "事件玩家.A[0] = 0;"
+    },
+    "修改全局变量": {
+        "prefix": "xiugaiquanjubianliang",
+        "body": [
+            "全局.A += 0;"
+        ],
+        "description": "全局.A += 0;"
+    },
+    "修改玩家变量": {
+        "prefix": "xiugaiwanjiabianliang",
+        "body": [
+            "事件玩家.A += 0;"
+        ],
+        "description": "事件玩家.A += 0;"
+    },
+    "设置全局变量": {
+        "prefix": "shezhiquanjubianliang",
+        "body": [
+            "全局.A = 0;"
+        ],
+        "description": "全局.A = 0;"
+    },
+    "设置玩家变量": {
+        "prefix": "shezhiwanjiabianliang",
+        "body": [
+            "事件玩家.A = 0;"
+        ],
+        "description": "事件玩家.A = 0;"
+    },
+    "IF": {
+        "prefix": "If",
+        "body": [
+            "If(0 == 0);"
+        ],
+        "description": "If(0 == 0);"
+    },
+    "Else If": {
+        "prefix": "elseif",
+        "body": [
+            "Else If(0 == 0);"
+        ],
+        "description": "Else If(0 == 0);"
+    },
+    "Else": {
+        "prefix": "else",
+        "body": [
+            "Else;"
+        ],
+        "description": "Else;"
+    },
+    "End": {
+        "prefix": "end",
+        "body": [
+            "End;"
+        ],
+        "description": "End;"
+    },
+    "For 全局变量": {
+        "prefix": "forglobal",
+        "body": [
+            "For 全局变量(A, 0, 数量(全局.A), 1);"
+        ],
+        "description": "For 全局变量(A, 0, 数量(全局.A), 1);"
+    },
+    "For 玩家变量": {
+        "prefix": "forplayer",
+        "body": [
+            "For 玩家变量(事件玩家, A, 0, 数量(全局.A), 1);"
+        ],
+        "description": "For 玩家变量(事件玩家, A, 0, 数量(全局.A), 1);"
+    },
+    "While": {
+        "prefix": "while",
+        "body": [
+            "While(0 == 0);"
+        ],
+        "description": "While(0 == 0);"
     }
 }

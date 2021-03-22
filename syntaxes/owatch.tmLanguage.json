@@ -7,6 +7,7 @@
 		{"include": "#event"},
 		{"include": "#actions"},
 		{"include": "#access"},
+		{"include": "#tips"},
 		{"include": "#keywords"},
 		{"include": "#strings"}
 	],
@@ -201,6 +202,12 @@
 					"match": "\\b(灰色)\\b"
 				}
 			]
+		},
+		"tips": {
+			"patterns": [{
+				"name": "comment.line.double-slash",
+				"match": "(/\\\\\\*([^*]|[\\\\\\r\\\\\\n]|(\\\\\\*+([^*/]|[\\\\\\r\\\\\\n])))*\\\\\\*+/)|(//.*)"
+			}]
 		},
 		"keywords": {
 			"patterns": [{

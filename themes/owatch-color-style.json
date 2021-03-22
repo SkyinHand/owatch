@@ -239,7 +239,7 @@
 				"rules.variable.owatch"
 			],
 			"settings": {
-				"foreground": "#E0FFFF"
+				"foreground": "#8B66B4"
 			}
 		},
 		{
@@ -266,7 +266,7 @@
 				"event.control.owatch"
 			],
 			"settings": {
-				"foreground": "#00FFFF"
+				"foreground": "#B365B9"
 			}
 		},
 		{
@@ -275,7 +275,7 @@
 				"event.list.owatch"
 			],
 			"settings": {
-				"foreground": "#48D1CC"
+				"foreground": "#B3C5E9"
 			}
 		},
 		{
@@ -293,7 +293,7 @@
 				"values.vector.owatch"
 			],
 			"settings": {
-				"foreground": "#98FB98"
+				"foreground": "#DA70D5"
 			}
 		},
 		{
@@ -329,16 +329,7 @@
 				"values.events.owatch"
 			],
 			"settings": {
-				"foreground": "#FFB6C1"
-			}
-		},
-		{
-			"name": "values",
-			"scope": [
-				"values.player.owatch"
-			],
-			"settings": {
-				"foreground": "#B0E0E6"
+				"foreground": "#B57EDC"
 			}
 		},
 		{
@@ -347,7 +338,7 @@
 				"values.mapping.owatch"
 			],
 			"settings": {
-				"foreground": "#FF8C00"
+				"foreground": "#D473D4"
 			}
 		},
 		{
@@ -356,7 +347,7 @@
 				"values.array.owatch"
 			],
 			"settings": {
-				"foreground": "#F0E68C"
+				"foreground": "#C8A2C9"
 			}
 		},
 		{
@@ -365,7 +356,7 @@
 				"values.var.owatch"
 			],
 			"settings": {
-				"foreground": "#FFC0CB"
+				"foreground": "#C8A2C9"
 			}
 		},
 		{
@@ -374,79 +365,24 @@
 				"values.const.owatch"
 			],
 			"settings": {
-				"foreground": "#FF1493"
+				"foreground": "#B41184"
 			}
 		},
 		{
 			"name": "actions",
 			"scope": [
-				"actions.boolean.owatch"
+				"actions.boolean.owatch",
+				"actions.player.owatch",
+				"actions.list.owatch",
+				"actions.var.owatch",
+				"actions.games.owatch",
+				"actions.effects.owatch",
+				"actions.effconst.owatch",
+				"actions.tips.owatch",
+				"values.player.owatch"
 			],
 			"settings": {
-				"foreground": "#6495ED"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.player.owatch"
-			],
-			"settings": {
-				"foreground": "#87CEEB"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.list.owatch"
-			],
-			"settings": {
-				"foreground": "#00FF00"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.var.owatch"
-			],
-			"settings": {
-				"foreground": "#7CFC00"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.games.owatch"
-			],
-			"settings": {
-				"foreground": "#FAFAD2"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.effects.owatch"
-			],
-			"settings": {
-				"foreground": "#FFFFE0"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.effconst.owatch"
-			],
-			"settings": {
-				"foreground": "#F0E68C"
-			}
-		},
-		{
-			"name": "actions",
-			"scope": [
-				"actions.tips.owatch"
-			],
-			"settings": {
-				"foreground": "#FF6347"
+				"foreground": "#B68FD0"
 			}
 		},
 		{
@@ -473,7 +409,7 @@
 				"access.effect.owatch"
 			],
 			"settings": {
-				"foreground": "#40E0D0"
+				"foreground": "#79A8C6"
 			}
 		},
 		{
@@ -518,7 +454,7 @@
 				"access.color.purple"
 			],
 			"settings": {
-				"foreground": "#80a0ff"
+				"foreground": "#5C009F"
 			}
 		},
 		{
@@ -611,8 +547,17 @@
 				"foreground": "#969696"
 			}
 		},
-
-
+		{
+			"name": "tips",
+			"scope": [
+				"comment.line.double-slash"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#8B66B4"
+			}
+		},
+		
 
 
 		{
