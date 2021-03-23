@@ -20,7 +20,6 @@
         ],
         "description": "规则"
     },
-
     "条件_2e5fc": {
         "prefix": "tiaojian",
         "body": [
@@ -5103,6 +5102,13 @@
         ],
         "description": "蹲下"
     },
+    "互动": {
+        "prefix": "hudong",
+        "body": [
+            "互动"
+        ],
+        "description": "互动"
+    },
     "跳跃_9f8f4": {
         "prefix": "tiaoyue",
         "body": [
@@ -5557,5 +5563,229 @@
             "While(0 == 0);"
         ],
         "description": "While(0 == 0);"
+    },
+    "D.Va_bc423": {
+        "prefix": "dva",
+        "body": [
+            "D.Va"
+        ],
+        "description": "D.Va"
+    },
+    "半藏_4e25a": {
+        "prefix": "banzang",
+        "body": [
+            "半藏"
+        ],
+        "description": "半藏"
+    },
+    "卢西奥_88f64": {
+        "prefix": "luxiao",
+        "body": [
+            "卢西奥"
+        ],
+        "description": "卢西奥"
+    },
+    "回声_e3376": {
+        "prefix": "huisheng",
+        "body": [
+            "回声"
+        ],
+        "description": "回声"
+    },
+    "堡垒_9d9c9": {
+        "prefix": "baolei",
+        "body": [
+            "堡垒"
+        ],
+        "description": "堡垒"
+    },
+    "士兵：76_f1ef1": {
+        "prefix": "shibing",
+        "body": [
+            "士兵：76"
+        ],
+        "description": "士兵：76"
+    },
+    "天使_e8273": {
+        "prefix": "tianshi",
+        "body": [
+            "天使"
+        ],
+        "description": "天使"
+    },
+    "奥丽莎_592a2": {
+        "prefix": "aolisha",
+        "body": [
+            "奥丽莎"
+        ],
+        "description": "奥丽莎"
+    },
+    "安娜_31648": {
+        "prefix": "anna",
+        "body": [
+            "安娜"
+        ],
+        "description": "安娜"
+    },
+    "巴蒂斯特_e592f": {
+        "prefix": "badisite",
+        "body": [
+            "巴蒂斯特"
+        ],
+        "description": "巴蒂斯特"
+    },
+    "布丽吉塔_f0875": {
+        "prefix": "bulijita",
+        "body": [
+            "布丽吉塔"
+        ],
+        "description": "布丽吉塔"
+    },
+    "托比昂_3a5ae": {
+        "prefix": "tuobiang",
+        "body": [
+            "托比昂"
+        ],
+        "description": "托比昂"
+    },
+    "末日铁拳_dccc4": {
+        "prefix": "moritiequan",
+        "body": [
+            "末日铁拳"
+        ],
+        "description": "末日铁拳"
+    },
+    "查莉娅_8b81e": {
+        "prefix": "chaliya",
+        "body": [
+            "查莉娅"
+        ],
+        "description": "查莉娅"
+    },
+    "死神_5c85f": {
+        "prefix": "sishen",
+        "body": [
+            "死神"
+        ],
+        "description": "死神"
+    },
+    "法老之鹰_6297d": {
+        "prefix": "falaozhiying",
+        "body": [
+            "法老之鹰"
+        ],
+        "description": "法老之鹰"
+    },
+    "温斯顿_13e7d": {
+        "prefix": "wensidun",
+        "body": [
+            "温斯顿"
+        ],
+        "description": "温斯顿"
+    },
+    "源氏_49115": {
+        "prefix": "yuanshi",
+        "body": [
+            "源氏"
+        ],
+        "description": "源氏"
+    },
+    "狂鼠_6119b": {
+        "prefix": "kuangshu",
+        "body": [
+            "狂鼠"
+        ],
+        "description": "狂鼠"
+    },
+    "猎空_567c0": {
+        "prefix": "liekong",
+        "body": [
+            "猎空"
+        ],
+        "description": "猎空"
+    },
+    "破坏球_a8ab3": {
+        "prefix": "pohuaiqiu",
+        "body": [
+            "破坏球"
+        ],
+        "description": "破坏球"
+    },
+    "禅雅塔_ea8d3": {
+        "prefix": "chanyata",
+        "body": [
+            "禅雅塔"
+        ],
+        "description": "禅雅塔"
+    },
+    "秩序之光_94769": {
+        "prefix": "zhixuzhiguang",
+        "body": [
+            "秩序之光"
+        ],
+        "description": "秩序之光"
+    },
+    "美_27052": {
+        "prefix": "mei",
+        "body": [
+            "美"
+        ],
+        "description": "美"
+    },
+    "艾什_019ef": {
+        "prefix": "aishen",
+        "body": [
+            "艾什"
+        ],
+        "description": "艾什"
+    },
+    "莫伊拉_b96f4": {
+        "prefix": "moyila",
+        "body": [
+            "莫伊拉"
+        ],
+        "description": "莫伊拉"
+    },
+    "莱因哈特_1a6d7": {
+        "prefix": "laiyinhate",
+        "body": [
+            "莱因哈特"
+        ],
+        "description": "莱因哈特"
+    },
+    "西格玛_65f5b": {
+        "prefix": "xigema",
+        "body": [
+            "西格玛"
+        ],
+        "description": "西格玛"
+    },
+    "路霸_9ab0f": {
+        "prefix": "luba",
+        "body": [
+            "路霸"
+        ],
+        "description": "路霸"
+    },
+    "麦克雷_3a36d": {
+        "prefix": "maikelei",
+        "body": [
+            "麦克雷"
+        ],
+        "description": "麦克雷"
+    },
+    "黑影_88831": {
+        "prefix": "heiying",
+        "body": [
+            "黑影"
+        ],
+        "description": "黑影"
+    },
+    "黑百合_1e4eb": {
+        "prefix": "heibaihe",
+        "body": [
+            "黑百合"
+        ],
+        "description": "黑百合"
     }
 }
