@@ -5787,5 +5787,257 @@
             "黑百合"
         ],
         "description": "黑百合"
+    },
+    "语音（上）_483d8": {
+        "prefix": "yuyinshang",
+        "body": [
+            "语音（上）"
+        ],
+        "description": "语音（上）"
+    },
+    "语音（左）_da0c1": {
+        "prefix": "yuyinzuo",
+        "body": [
+            "语音（左）"
+        ],
+        "description": "语音（左）"
+    },
+    "语音（右）_794ce": {
+        "prefix": "yuyinyou",
+        "body": [
+            "语音（右）"
+        ],
+        "description": "语音（右）"
+    },
+    "语音（下）_7113c": {
+        "prefix": "yuyinxia",
+        "body": [
+            "语音（下）"
+        ],
+        "description": "语音（下）"
+    },
+    "表情（上）_18565": {
+        "prefix": "biaoqingshang",
+        "body": [
+            "表情（上）"
+        ],
+        "description": "表情（上）"
+    },
+    "表情（左）_ee274": {
+        "prefix": "biaoqingzuo",
+        "body": [
+            "表情（左）"
+        ],
+        "description": "表情（左）"
+    },
+    "表情（右）_1aae1": {
+        "prefix": "biaoqingyou",
+        "body": [
+            "表情（右）"
+        ],
+        "description": "表情（右）"
+    },
+    "表情（下）_38b23": {
+        "prefix": "biaoqingxia",
+        "body": [
+            "表情（下）"
+        ],
+        "description": "表情（下）"
+    },
+    "终极技能状态_86ca5": {
+        "prefix": "zhongjijinengzhuangtai",
+        "body": [
+            "终极技能状态"
+        ],
+        "description": "终极技能状态"
+    },
+    "问候_053cb": {
+        "prefix": "wenhou",
+        "body": [
+            "问候"
+        ],
+        "description": "问候"
+    },
+    "需要治疗_36c8d": {
+        "prefix": "xuyaozhiliao",
+        "body": [
+            "需要治疗"
+        ],
+        "description": "需要治疗"
+    },
+    "集合_7f195": {
+        "prefix": "jihe",
+        "body": [
+            "集合"
+        ],
+        "description": "集合"
+    },
+    "感谢_f7ec1": {
+        "prefix": "ganxie",
+        "body": [
+            "感谢"
+        ],
+        "description": "感谢"
+    },
+    "收到_a58b3": {
+        "prefix": "shoudao",
+        "body": [
+            "收到"
+        ],
+        "description": "收到"
+    },
+    "继续攻击_44963": {
+        "prefix": "jixugongji",
+        "body": [
+            "继续攻击"
+        ],
+        "description": "继续攻击"
+    },
+    "不用谢_3ebc7": {
+        "prefix": "buyongxie",
+        "body": [
+            "不用谢"
+        ],
+        "description": "不用谢"
+    },
+    "好的_8858f": {
+        "prefix": "haode",
+        "body": [
+            "好的"
+        ],
+        "description": "好的"
+    },
+    "不行_af046": {
+        "prefix": "buxing",
+        "body": [
+            "不行"
+        ],
+        "description": "不行"
+    },
+    "再见_a1e46": {
+        "prefix": "zaijian",
+        "body": [
+            "再见"
+        ],
+        "description": "再见"
+    },
+    "前进_2837b": {
+        "prefix": "qianjin",
+        "body": [
+            "前进"
+        ],
+        "description": "前进"
+    },
+    "做好准备_0897f": {
+        "prefix": "zuohaozhunbei",
+        "body": [
+            "做好准备"
+        ],
+        "description": "做好准备"
+    },
+    "撤退_9859f": {
+        "prefix": "chetui",
+        "body": [
+            "撤退"
+        ],
+        "description": "撤退"
+    },
+    "推进_ac5e6": {
+        "prefix": "tuijin",
+        "body": [
+            "推进"
+        ],
+        "description": "推进"
+    },
+    "敌人来袭_21cb1": {
+        "prefix": "direnlaixi",
+        "body": [
+            "敌人来袭"
+        ],
+        "description": "敌人来袭"
+    },
+    "你先上_eed2e": {
+        "prefix": "nixianshang",
+        "body": [
+            "你先上"
+        ],
+        "description": "你先上"
+    },
+    "我上了_d0414": {
+        "prefix": "woshangle",
+        "body": [
+            "我上了"
+        ],
+        "description": "我上了"
+    },
+    "正在赶来_e30ff": {
+        "prefix": "zhengzaiganlai",
+        "body": [
+            "正在赶来"
+        ],
+        "description": "正在赶来"
+    },
+    "正在进攻_da665": {
+        "prefix": "zhengzaijingong",
+        "body": [
+            "正在进攻"
+        ],
+        "description": "正在进攻"
+    },
+    "正在防守_afa7c": {
+        "prefix": "zhengzaifangshou",
+        "body": [
+            "正在防守"
+        ],
+        "description": "正在防守"
+    },
+    "需要帮助_c8538": {
+        "prefix": "xuyaobangzhu",
+        "body": [
+            "需要帮助"
+        ],
+        "description": "需要帮助"
+    },
+    "抱歉_367da": {
+        "prefix": "baoqian",
+        "body": [
+            "抱歉"
+        ],
+        "description": "抱歉"
+    },
+    "倒计时_2ffba": {
+        "prefix": "daojishi",
+        "body": [
+            "倒计时"
+        ],
+        "description": "倒计时"
+    },
+    "喷漆上_d14e4": {
+        "prefix": "penqishang",
+        "body": [
+            "喷漆上"
+        ],
+        "description": "喷漆上"
+    },
+    "喷漆左_6f66b": {
+        "prefix": "penqizuo",
+        "body": [
+            "喷漆左"
+        ],
+        "description": "喷漆左"
+    },
+    "喷漆右_5ccc0": {
+        "prefix": "penqiyou",
+        "body": [
+            "喷漆右"
+        ],
+        "description": "喷漆右"
+    },
+    "喷漆下\n_f7ce3": {
+        "prefix": "penqixia",
+        "body": [
+            "喷漆下\n"
+        ],
+        "description": "喷漆下\n"
     }
 }
