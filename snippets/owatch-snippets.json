@@ -1036,7 +1036,7 @@
         "description": "正在蹲下(事件玩家)"
     },
     "面朝方向_38271": {
-        "prefix": "mianzhaofangxiang",
+        "prefix": "mianchaofangxiang",
         "body": [
             "面朝方向(事件玩家)"
         ],
@@ -1932,7 +1932,7 @@
         "description": "解除绑定(事件玩家);"
     },
     "开始调整玩家大小_5f868": {
-        "prefix": "kaishidiaozhengwanjiadaxiao",
+        "prefix": "kaishitiaozhengwanjiadaxiao",
         "body": [
             "开始调整玩家大小(事件玩家, 1, 真);"
         ],
@@ -6039,5 +6039,327 @@
             "喷漆下\n"
         ],
         "description": "喷漆下\n"
+    },
+    "设置弹药": {
+        "prefix": "shezhidanyao",
+        "body": [
+            "设置弹药(事件玩家, 0, 0);"
+        ],
+        "description": "设置弹药"
+    },
+    "所有造成伤害量_960d6": {
+        "prefix": "suoyouzaochengshanghailiang",
+        "body": [
+            "所有造成伤害量"
+        ],
+        "description": "所有造成伤害量"
+    },
+    "对屏障造成伤害量_909e3": {
+        "prefix": "duipingzhangzaochengshanghailiang",
+        "body": [
+            "对屏障造成伤害量"
+        ],
+        "description": "对屏障造成伤害量"
+    },
+    "暴击命中率_8ca7f": {
+        "prefix": "baojimingzhonglv",
+        "body": [
+            "暴击命中率"
+        ],
+        "description": "暴击命中率"
+    },
+    "暴击_9b235": {
+        "prefix": "baoji",
+        "body": [
+            "暴击"
+        ],
+        "description": "暴击"
+    },
+    "阻挡伤害量_4b1d2": {
+        "prefix": "zudangshanghailiang",
+        "body": [
+            "阻挡伤害量"
+        ],
+        "description": "阻挡伤害量"
+    },
+    "承受伤害量_b354c": {
+        "prefix": "chengshoushanghailiang",
+        "body": [
+            "承受伤害量"
+        ],
+        "description": "承受伤害量"
+    },
+    "阵亡_16af5": {
+        "prefix": "zhenwang",
+        "body": [
+            "阵亡"
+        ],
+        "description": "阵亡"
+    },
+    "协助防守_f7ff7": {
+        "prefix": "xiezhufangshou",
+        "body": [
+            "协助防守"
+        ],
+        "description": "协助防守"
+    },
+    "消灭_ebef5": {
+        "prefix": "xiaomie",
+        "body": [
+            "消灭"
+        ],
+        "description": "消灭"
+    },
+    "地形阵亡_ad33a": {
+        "prefix": "dixingzhenwang",
+        "body": [
+            "地形阵亡"
+        ],
+        "description": "地形阵亡"
+    },
+    "地形消灭_e354e": {
+        "prefix": "dixingxiaomie",
+        "body": [
+            "地形消灭"
+        ],
+        "description": "地形消灭"
+    },
+    "最后一击_5b6df": {
+        "prefix": "zuihouyiji",
+        "body": [
+            "最后一击"
+        ],
+        "description": "最后一击"
+    },
+    "治疗量_a4c4e": {
+        "prefix": "zhiliaoliang",
+        "body": [
+            "治疗量"
+        ],
+        "description": "治疗量"
+    },
+    "受到治疗量_9165e": {
+        "prefix": "shoudaozhiliaoliang",
+        "body": [
+            "受到治疗量"
+        ],
+        "description": "受到治疗量"
+    },
+    "对英雄造成伤害量_b4eb6": {
+        "prefix": "duiyingxiongzaochengshanghailiang",
+        "body": [
+            "对英雄造成伤害量"
+        ],
+        "description": "对英雄造成伤害量"
+    },
+    "最佳瞬间消灭_a89b1": {
+        "prefix": "zuijiashunjianxiaomie",
+        "body": [
+            "最佳瞬间消灭"
+        ],
+        "description": "最佳瞬间消灭"
+    },
+    "瞬间消灭_7cd32": {
+        "prefix": "shunjianxiaomie",
+        "body": [
+            "瞬间消灭"
+        ],
+        "description": "瞬间消灭"
+    },
+    "目标攻防消灭_f8c8d": {
+        "prefix": "mubiaogongfangxiaomie",
+        "body": [
+            "目标攻防消灭"
+        ],
+        "description": "目标攻防消灭"
+    },
+    "协助进攻_d7706": {
+        "prefix": "xiezhujingong",
+        "body": [
+            "协助进攻"
+        ],
+        "description": "协助进攻"
+    },
+    "开镜命中率_c64ad": {
+        "prefix": "kaijingmingzhonglv",
+        "body": [
+            "开镜命中率"
+        ],
+        "description": "开镜命中率"
+    },
+    "开镜暴击率_029a4": {
+        "prefix": "kaijingbaojilv",
+        "body": [
+            "开镜暴击率"
+        ],
+        "description": "开镜暴击率"
+    },
+    "开镜暴击消灭_2f6a7": {
+        "prefix": "kaijingbaojixiaomie",
+        "body": [
+            "开镜暴击消灭"
+        ],
+        "description": "开镜暴击消灭"
+    },
+    "开镜暴击_846e1": {
+        "prefix": "kaijingbaoji",
+        "body": [
+            "开镜暴击"
+        ],
+        "description": "开镜暴击"
+    },
+    "开镜命中_2f0f7": {
+        "prefix": "kaijingmingzhong",
+        "body": [
+            "开镜命中"
+        ],
+        "description": "开镜命中"
+    },
+    "开镜射击_16829": {
+        "prefix": "kaijingsheji",
+        "body": [
+            "开镜射击"
+        ],
+        "description": "开镜射击"
+    },
+    "自我治疗量_62894": {
+        "prefix": "ziwozhiliaoliang",
+        "body": [
+            "自我治疗量"
+        ],
+        "description": "自我治疗量"
+    },
+    "射击次数_9c9a5": {
+        "prefix": "shejicishu",
+        "body": [
+            "射击次数"
+        ],
+        "description": "射击次数"
+    },
+    "射击命中_8b739": {
+        "prefix": "shejimingzhong",
+        "body": [
+            "射击命中"
+        ],
+        "description": "射击命中"
+    },
+    "射击未命中_a14f3": {
+        "prefix": "shejiweimingzhong",
+        "body": [
+            "射击未命中"
+        ],
+        "description": "射击未命中"
+    },
+    "单独消灭_10f82": {
+        "prefix": "danduxiaomie",
+        "body": [
+            "单独消灭"
+        ],
+        "description": "单独消灭"
+    },
+    "获得终极技能_4db5c": {
+        "prefix": "huodezhongjijineng",
+        "body": [
+            "获得终极技能"
+        ],
+        "description": "获得终极技能"
+    },
+    "使用终极技能_98cad": {
+        "prefix": "shiyongzhongjijineng",
+        "body": [
+            "使用终极技能"
+        ],
+        "description": "使用终极技能"
+    },
+    "武器命中率_ec132": {
+        "prefix": "wuqimingzhonglv",
+        "body": [
+            "武器命中率"
+        ],
+        "description": "武器命中率"
+    },
+    "被入侵_98bc5": {
+        "prefix": "beiruqin",
+        "body": [
+            "被入侵"
+        ],
+        "description": "被入侵"
+    },
+    "点燃_7515c": {
+        "prefix": "dianran",
+        "body": [
+            "点燃"
+        ],
+        "description": "点燃"
+    },
+    "击倒_41ffa": {
+        "prefix": "jidao",
+        "body": [
+            "击倒"
+        ],
+        "description": "击倒"
+    },
+    "沉睡_31748": {
+        "prefix": "chenshui",
+        "body": [
+            "沉睡"
+        ],
+        "description": "沉睡"
+    },
+    "冰冻_26fb6": {
+        "prefix": "bingdong",
+        "body": [
+            "冰冻"
+        ],
+        "description": "冰冻"
+    },
+    "无法杀死_8d5ab": {
+        "prefix": "wufashasi",
+        "body": [
+            "无法杀死"
+        ],
+        "description": "无法杀死"
+    },
+    "无敌_b8381": {
+        "prefix": "wudi",
+        "body": [
+            "无敌"
+        ],
+        "description": "无敌"
+    },
+    "消散_412ac": {
+        "prefix": "xiaosan",
+        "body": [
+            "消散"
+        ],
+        "description": "消散"
+    },
+    "定身_16250": {
+        "prefix": "dingshen",
+        "body": [
+            "定身"
+        ],
+        "description": "定身"
+    },
+    "击晕_82aa0": {
+        "prefix": "jiyun",
+        "body": [
+            "击晕"
+        ],
+        "description": "击晕"
+    },
+    "护甲_ca9ed": {
+        "prefix": "hujia",
+        "body": [
+            "护甲"
+        ],
+        "description": "护甲"
+    },
+    "护盾_83616": {
+        "prefix": "hudun",
+        "body": [
+            "护盾"
+        ],
+        "description": "护盾"
     }
 }
