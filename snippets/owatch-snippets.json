@@ -364,7 +364,7 @@
         "description": "垂直方向夹角(事件玩家, 矢量(0, 0, 0))"
     },
     "垂直朝向角度_0ad6f": {
-        "prefix": "chuizhizhaoxiangjiaodu",
+        "prefix": "chuizhichaoxiangjiaodu",
         "body": [
             "垂直朝向角度(事件玩家)"
         ],
@@ -378,7 +378,7 @@
         "description": "水平方向夹角(事件玩家, 矢量(0, 0, 0))"
     },
     "水平朝向角度_d2529": {
-        "prefix": "shuipingzhaoxiangjiaodu",
+        "prefix": "shuipingchaoxiangjiaodu",
         "body": [
             "水平朝向角度(事件玩家)"
         ],
@@ -2184,7 +2184,7 @@
         "description": "停止按下按钮(事件玩家, 按钮(主要攻击模式));"
     },
     "停止朝向_bc400": {
-        "prefix": "tingzhizhaoxiang",
+        "prefix": "tingzhichaoxiang",
         "body": [
             "停止朝向(事件玩家);"
         ],
@@ -2289,7 +2289,7 @@
         "description": "开始按下按钮(事件玩家, 按钮(主要攻击模式));"
     },
     "开始朝向_17250": {
-        "prefix": "kaishizhaoxiang",
+        "prefix": "kaishichaoxiang",
         "body": [
             "开始朝向(事件玩家, 矢量(0, 0, 0), 100, 至地图, 方向及角速率);"
         ],
@@ -2625,7 +2625,7 @@
         "description": "设置最大重生时间(事件玩家, 10);"
     },
     "设置朝向_edf15": {
-        "prefix": "shezhizhaoxiang",
+        "prefix": "shezhichaoxiang",
         "body": [
             "设置朝向(事件玩家, 矢量(0, 0, 0), 至地图);"
         ],

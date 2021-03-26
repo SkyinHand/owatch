@@ -9,12 +9,16 @@
         "守望先锋",
         "owc"
     ],
-    "version": "1.0.10",
+    "version": "1.0.9",
     "publisher": "Zstk666",
     "author": "掌上天空#5861",
     "engines": {
         "vscode": "^1.54.0"
     },
+    "activationEvents": [
+        "onCommand:owatch.about"
+    ],
+    "main": "./extension.js",
     "categories": [
         "Other"
     ],
@@ -51,6 +55,35 @@
                 "language": "owatch",
                 "path": "./snippets/owatch-snippets.json"
             }
-        ]
+        ],
+        "commands": [
+            {
+                "command": "owatch.about",
+                "title": "关于插件"
+            }
+        ],
+        "menus": {
+            "editor/title": [{
+                "when": "resourceLangId == owatch",
+                "command": "owatch.about",
+                "group": "navigation"
+            }]
+        }
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./extensions/runExtensions.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.54.0",
+        "@types/glob": "^7.1.3",
+        "@types/mocha": "^8.0.4",
+        "@types/node": "^12.11.7",
+        "eslint": "^7.19.0",
+        "glob": "^7.1.6",
+        "mocha": "^8.2.1",
+        "typescript": "^4.1.3",
+        "vscode-test": "^1.5.0"
     }
 }
