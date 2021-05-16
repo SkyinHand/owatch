@@ -20,6 +20,32 @@
         ],
         "description": "规则"
     },
+    "子程序": {
+        "prefix": "zichengxu",
+        "body": [
+            "子程序"
+        ],
+        "description": "子程序"
+    },
+    "创建子程序": {
+        "prefix": "chuangjianzichengxu",
+        "body": [
+            "规则(\"// 子程序 - $0\")",
+            "{",
+            "   事件",
+            "   {",
+            "       子程序;",
+            "       $0;",
+            "   }",
+            "   动作",
+            "   {",
+            "       ",
+            "   }",
+            "}"
+            
+        ],
+        "description": "创建一个符合规则的子程序"
+    },
     "条件_2e5fc": {
         "prefix": "tiaojian",
         "body": [
