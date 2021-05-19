@@ -2076,12 +2076,12 @@
         ],
         "description": "伤害(事件玩家, 无, 0);"
     },
-    "重生_9d168": {
-        "prefix": "chongsheng",
+    "复生_9d168": {
+        "prefix": "fusheng",
         "body": [
-            "重生(事件玩家);"
+            "复生(事件玩家);"
         ],
-        "description": "重生(事件玩家);"
+        "description": "复生(事件玩家);"
     },
     "击杀_2bcb4": {
         "prefix": "jisha",
@@ -2643,12 +2643,12 @@
         ],
         "description": "设置最大生命值(事件玩家, 100);"
     },
-    "设置最大重生时间_acc73": {
-        "prefix": "shezhizuidachongshengshijian",
+    "设置最大复生时间_acc73": {
+        "prefix": "shezhizuidafushengshijian",
         "body": [
-            "设置最大重生时间(事件玩家, 10);"
+            "设置最大复生时间(事件玩家, 10);"
         ],
-        "description": "设置最大重生时间(事件玩家, 10);"
+        "description": "设置最大复生时间(事件玩家, 10);"
     },
     "设置朝向_edf15": {
         "prefix": "shezhichaoxiang",
@@ -3056,12 +3056,12 @@
         ],
         "description": "开启游戏预设通告模式"
     },
-    "开启游戏预设重生模式_cf693": {
-        "prefix": "kaiqiyouxiyushechongshengmoshi",
+    "开启游戏预设复生模式_cf693": {
+        "prefix": "kaiqiyouxiyushefushengmoshi",
         "body": [
-            "开启游戏预设重生模式(事件玩家);"
+            "开启游戏预设复生模式(事件玩家);"
         ],
-        "description": "开启游戏预设重生模式(事件玩家);"
+        "description": "开启游戏预设复生模式(事件玩家);"
     },
     "开启游戏预设音乐模式_65c9b": {
         "prefix": "kaiqiyouxiyusheyinlemoshi",
@@ -3091,12 +3091,12 @@
         ],
         "description": "关闭游戏预设通告模式"
     },
-    "关闭游戏预设重生模式_90795": {
-        "prefix": "guanbiyouxiyushechongshengmoshi",
+    "关闭游戏预设复生模式_90795": {
+        "prefix": "guanbiyouxiyushefushengmoshi",
         "body": [
-            "关闭游戏预设重生模式(事件玩家);"
+            "关闭游戏预设复生模式(事件玩家);"
         ],
-        "description": "关闭游戏预设重生模式(事件玩家);"
+        "description": "关闭游戏预设复生模式(事件玩家);"
     },
     "关闭游戏预设音乐模式_28c47": {
         "prefix": "guanbiyouxiyusheyinlemoshi",
@@ -6387,5 +6387,12 @@
             "护盾"
         ],
         "description": "护盾"
+    },
+    "复活": {
+        "prefix": "fuhuo",
+        "body": [
+            "复活(事件玩家);"
+        ],
+        "description": "复活(事件玩家);"
     }
 }
