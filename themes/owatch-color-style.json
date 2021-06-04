@@ -329,7 +329,7 @@
 				"values.events.owatch"
 			],
 			"settings": {
-				"foreground": "#B57EDC"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -365,7 +365,7 @@
 				"values.const.owatch"
 			],
 			"settings": {
-				"foreground": "#B41184"
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -424,127 +424,23 @@
 		{
 			"name": "access",
 			"scope": [
-				"access.color.white"
+				"access.color.white",
+				"access.color.yellow",
+				"access.color.green",
+				"access.color.purple",
+				"access.color.red",
+				"access.color.blue",
+				"access.color.purple",
+				"access.color.watergreen",
+				"access.color.orange",
+				"access.color.skyblue",
+				"access.color.aquagreen",
+				"access.color.greygreen",
+				"access.color.mred",
+				"access.color.grey",
 			],
 			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.yellow"
-			],
-			"settings": {
-				"foreground": "#FFFF00"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.green"
-			],
-			"settings": {
-				"foreground": "#00ff00"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.purple"
-			],
-			"settings": {
-				"foreground": "#5C009F"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.red"
-			],
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.blue"
-			],
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.purple"
-			],
-			"settings": {
-				"foreground": "#40c0ff"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.watergreen"
-			],
-			"settings": {
-				"foreground": "#00FFFF"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.orange"
-			],
-			"settings": {
-				"foreground": "#FFCC33"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.skyblue"
-			],
-			"settings": {
-				"foreground": "#87CEFA"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.aquagreen"
-			],
-			"settings": {
-				"foreground": "#40E0D0"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.greygreen"
-			],
-			"settings": {
-				"foreground": "#93A9A6"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.mred"
-			],
-			"settings": {
-				"foreground": "#DF2170"
-			}
-		},
-		{
-			"name": "access",
-			"scope": [
-				"access.color.grey"
-			],
-			"settings": {
-				"foreground": "#969696"
+				"foreground": "#79A8C6"
 			}
 		},
 		{
@@ -628,6 +524,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#89DDFF"
 			}
 		},
