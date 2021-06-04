@@ -1855,9 +1855,9 @@
     "等待直到_ef6c1": {
         "prefix": "dengdaizhidao",
         "body": [
-            "等待直到"
+            "等待直到 (假, 99999);"
         ],
-        "description": "等待直到"
+        "description": "等待直到 (假, 99999);"
     },
     "中断_a77e9": {
         "prefix": "zhongduan",
@@ -6394,5 +6394,96 @@
             "复活(事件玩家);"
         ],
         "description": "复活(事件玩家);"
+    },
+    "有益光束": {
+        "prefix": "youyiguangshu",
+        "body": [
+            "有益光束"
+        ],
+        "description": "有益光束"
+    },
+    "有害光束": {
+        "prefix": "youhaiguangshu",
+        "body": [
+            "有害光束"
+        ],
+        "description": "有害光束"
+    },
+    "抓钩光束": {
+        "prefix": "zhuagouguangshu",
+        "body": [
+            "抓钩光束"
+        ],
+        "description": "抓钩光束"
+    },
+    "“末日铁拳”上勾重拳跳跃声音": {
+        "prefix": "moritiequanshanggouzhongquantiaoyueshengyin",
+        "body": [
+            "“末日铁拳”上勾重拳跳跃声音"
+        ],
+        "description": "“末日铁拳”上勾重拳跳跃声音"
+    },
+    "“末日铁拳”上勾重拳击中声音": {
+        "prefix": "moritiequanshanggouzhongquanjizhongshengyin",
+        "body": [
+            "“末日铁拳”上勾重拳击中声音"
+        ],
+        "description": "“末日铁拳”上勾重拳击中声音"
+    },
+    "“末日铁拳”毁天灭地击中声音": {
+        "prefix": "moritiequanhuitianmiedijizhongshengyin",
+        "body": [
+            "“末日铁拳”毁天灭地击中声音"
+        ],
+        "description": "“末日铁拳”毁天灭地击中声音"
+    },
+    "受伤害者，伤害者及伤害百分比": {
+        "prefix": "shoushanghaizheshanghaizhejibaifenbi",
+        "body": [
+            "受伤害者，伤害者及伤害百分比"
+        ],
+        "description": "受伤害者，伤害者及伤害百分比"
+    },
+    "受伤害者和伤害者": {
+        "prefix": "shoushanghaizheheshanghaizhe",
+        "body": [
+            "受伤害者和伤害者"
+        ],
+        "description": "受伤害者和伤害者"
+    },
+    "最后创建的生命池": {
+        "prefix": "zuihouchuangjiandeshengmingchi",
+        "body": [
+            "最后创建的生命池"
+        ],
+        "description": "最后创建的生命池"
+    },
+    "开始为机器人强制设置名称": {
+        "prefix": "kaishiweijiqirenqiangzhishezhimingcheng",
+        "body": [
+            "开始为机器人强制设置名称(事件玩家, 自定义字符串(\"\"));"
+        ],
+        "description": "开始为机器人强制设置名称(事件玩家, 自定义字符串(\"\"));"
+    },
+    "重新开始规则": {
+        "prefix": "chongxinkaishiguize",
+        "body": [
+            "重新开始规则"
+        ],
+        "description": "重新开始规则"
+    },
+    "无动作": {
+        "prefix": "wudongzuo",
+        "body": [
+            "无动作"
+        ],
+        "description": "无动作"
+    },
+    "设置武器": {
+        "prefix": "shezhiwuqi",
+        "body": [
+            "设置武器(事件玩家, 1);"
+        ],
+        "description": "设置武器(事件玩家, 1);"
     }
 }
